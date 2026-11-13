@@ -1,0 +1,1916 @@
+martian-6/crypto/default/src/main/java/org/keycloak/crypto/def/BCCertificateUtilsProvider.java
+  h_e90f0321dd544b 1-344
+martian-28/pkg/services/anonymous/anonimpl/client_test.go
+  h_e90f0321dd544b 1-69
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_ru.properties
+  h_e90f0321dd544b 1-233
+martian-41/packages/lib/getBrandColours.test.ts
+  h_e90f0321dd544b 1-39
+martian-6/common/src/main/java/org/keycloak/common/crypto/FipsMode.java
+  h_e90f0321dd544b 1-32
+martian-28/packages/grafana-data/src/types/flot.ts
+  h_e90f0321dd544b 1-8
+martian-28/pkg/api/short_url_test.go
+  h_e90f0321dd544b 1-102
+martian-28/packages/grafana-data/src/types/alerts.ts
+  h_e90f0321dd544b 1-21
+martian-21/server-spi/src/main/java/org/keycloak/models/RealmProvider.java
+  h_e90f0321dd544b 1-129
+martian-28/pkg/api/org_test.go
+  h_e90f0321dd544b 1-273
+martian-38/app/assets/javascripts/discourse/lib/app-events.js.es6
+  h_e90f0321dd544b 1-25
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_pt.properties
+  h_e90f0321dd544b 1-525
+martian-21/server-spi/src/main/java/org/keycloak/models/ModelIllegalStateException.java
+  h_e90f0321dd544b 1-45
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_ar.properties
+  h_e90f0321dd544b 1-47
+martian-6/crypto/elytron/src/main/java/org/keycloak/crypto/elytron/ElytronUserIdentityExtractorProvider.java
+  h_e90f0321dd544b 1-200
+martian-41/packages/lib/OgImages.tsx
+  h_e90f0321dd544b 1-264
+martian-38/app/assets/javascripts/discourse/lib/ember_compat_handlebars.js
+  h_e90f0321dd544b 1-122
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_nl.properties
+  h_e90f0321dd544b 1-287
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_zh_CN.properties
+  h_e90f0321dd544b 1-500
+martian-38/app/assets/javascripts/discourse/lib/computed.js.es6
+  h_e90f0321dd544b 1-124
+martian-47/apps/web/pages/auth/error.tsx
+  h_e90f0321dd544b 1-60
+martian-41/packages/lib/recurringStrings.ts
+  h_e90f0321dd544b 1-45
+martian-41/apps/web/test/lib/handleChildrenEventTypes.test.ts
+  h_e90f0321dd544b 1-290
+martian-0/js/apps/admin-ui/maven-resources/theme/keycloak.v2/admin/messages/messages_en.properties
+  h_e90f0321dd544b 1-3417
+martian-28/packages/grafana-data/src/types/graph.ts
+  h_e90f0321dd544b 1-31
+martian-38/app/models/stylesheet_cache.rb
+  h_e90f0321dd544b 1-30
+martian-28/pkg/api/quota.go
+  h_e90f0321dd544b 1-207
+martian-41/packages/lib/logger.ts
+  h_e90f0321dd544b 1-21
+martian-28/pkg/api/basic_auth.go
+  h_e90f0321dd544b 1-19
+martian-38/app/assets/javascripts/discourse/lib/key_value_store.js
+  h_e90f0321dd544b 1-65
+martian-38/app/controllers/notifications_controller.rb
+  h_e90f0321dd544b 1-51
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_zh_CN.properties
+  h_e90f0321dd544b 1-164
+martian-38/app/controllers/groups_controller.rb
+  h_e90f0321dd544b 1-83
+martian-41/packages/types/next-auth.d.ts
+  h_e90f0321dd544b 1-34
+martian-28/pkg/api/featuremgmt_test.go
+  h_e90f0321dd544b 1-508
+martian-21/server-spi/src/main/java/org/keycloak/models/TokenManager.java
+  h_e90f0321dd544b 1-78
+martian-41/packages/lib/CloseComeUtils.ts
+  h_e90f0321dd544b 1-208
+martian-38/app/models/group_user.rb
+  h_e90f0321dd544b 1-62
+martian-28/packages/grafana-data/src/types/time.ts
+  h_e90f0321dd544b 1-88
+martian-28/pkg/api/dtos/index.go
+  h_e90f0321dd544b 1-49
+martian-28/pkg/api/swagger_responses.go
+  h_e90f0321dd544b 1-136
+martian-28/packages/grafana-data/src/types/app.ts
+  h_e90f0321dd544b 1-133
+martian-41/packages/lib/serverConfig.ts
+  h_e90f0321dd544b 1-39
+martian-32/app/assets/stylesheets/desktop/topic-list.scss
+  h_e90f0321dd544b 1-372
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_pt.properties
+  h_e90f0321dd544b 1-50
+martian-32/app/assets/stylesheets/mobile/topic.scss
+  h_e90f0321dd544b 1-188
+martian-28/pkg/api/login_test.go
+  h_e90f0321dd544b 1-712
+martian-32/app/assets/stylesheets/common/base/share_link.scss
+  h_e90f0321dd544b 1-77
+martian-28/pkg/setting/setting_storage.go
+  h_e90f0321dd544b 1-16
+martian-38/app/controllers/user_actions_controller.rb
+  h_e90f0321dd544b 1-39
+martian-21/server-spi/src/main/java/org/keycloak/models/OrganizationDomainModel.java
+  h_e90f0321dd544b 1-66
+martian-38/app/models/post_reply.rb
+  h_e90f0321dd544b 1-20
+martian-32/app/assets/stylesheets/mobile/history.scss
+  h_e90f0321dd544b 1-20
+martian-21/server-spi/src/main/java/org/keycloak/models/KeycloakTransaction.java
+  h_e90f0321dd544b 1-31
+martian-28/packages/grafana-data/src/types/dataFrame.ts
+  h_e90f0321dd544b 1-292
+martian-38/app/models/user_export.rb
+  h_e90f0321dd544b 1-40
+martian-28/packages/grafana-data/src/types/featureToggles.gen.ts
+  h_e90f0321dd544b 1-171
+martian-21/server-spi/src/main/java/org/keycloak/models/FederatedIdentityModel.java
+  h_e90f0321dd544b 1-104
+martian-21/server-spi/src/main/java/org/keycloak/models/OrderedModel.java
+  h_e90f0321dd544b 1-58
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_el.properties
+  h_e90f0321dd544b 1-447
+martian-28/packages/grafana-data/src/types/index.ts
+  h_e90f0321dd544b 1-67
+martian-28/pkg/api/folder.go
+  h_e90f0321dd544b 1-600
+martian-47/packages/prisma/schema.prisma
+  h_e90f0321dd544b 1-907
+martian-21/server-spi/src/main/java/org/keycloak/models/WebAuthnPolicy.java
+  h_e90f0321dd544b 1-142
+martian-38/app/assets/javascripts/discourse/lib/quote.js
+  h_e90f0321dd544b 1-42
+martian-41/packages/lib/getIP.ts
+  h_e90f0321dd544b 1-30
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_sv.properties
+  h_e90f0321dd544b 1-24
+martian-38/app/models/topic_tracking_state.rb
+  h_e90f0321dd544b 1-176
+martian-21/server-spi/src/main/java/org/keycloak/models/GroupModel.java
+  h_e90f0321dd544b 1-326
+martian-41/packages/lib/tsconfig.json
+  h_e90f0321dd544b 1-10
+martian-38/app/models/user_field_option.rb
+  h_e90f0321dd544b 1-2
+martian-21/server-spi/src/main/java/org/keycloak/models/AuthenticationExecutionModel.java
+  h_e90f0321dd544b 1-180
+martian-47/packages/features/auth/lib/sendVerificationRequest.ts
+  h_e90f0321dd544b 1-39
+martian-28/pkg/api/preferences.go
+  h_e90f0321dd544b 1-249
+martian-38/app/models/trust_level_setting.rb
+  h_e90f0321dd544b 1-18
+martian-38/app/assets/javascripts/discourse/lib/highlight-syntax.js.es6
+  h_e90f0321dd544b 1-14
+martian-32/app/assets/stylesheets/common/base/bbcode.scss
+  h_e90f0321dd544b 1-22
+martian-41/packages/lib/slots.ts
+  h_e90f0321dd544b 1-248
+martian-0/js/apps/admin-ui/maven-resources-community/theme/keycloak.v2/admin/messages/messages_ka.properties
+  h_e90f0321dd544b 1-652
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_nl.properties
+  h_e90f0321dd544b 1-44
+martian-38/app/assets/javascripts/discourse/lib/debounce.js
+  h_e90f0321dd544b 1-18
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_da.properties
+  h_e90f0321dd544b 1-314
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_el.properties
+  h_e90f0321dd544b 1-45
+martian-19/pkg/services/authz/rbac/mapper.go
+  h_e90f0321dd544b 1-85
+martian-38/app/models/user_open_id.rb
+  h_e90f0321dd544b 1-23
+martian-47/packages/prisma/seed-utils.ts
+  h_e90f0321dd544b 1-147
+martian-21/server-spi/src/main/java/org/keycloak/models/MembershipMetadata.java
+  h_e90f0321dd544b 1-32
+martian-38/app/controllers/invites_controller.rb
+  h_e90f0321dd544b 1-171
+martian-28/packages/grafana-data/src/types/fieldColor.ts
+  h_e90f0321dd544b 1-40
+martian-41/packages/lib/markdownIt.ts
+  h_e90f0321dd544b 1-3
+martian-38/app/models/site.rb
+  h_e90f0321dd544b 1-91
+martian-28/pkg/api/login_oauth.go
+  h_e90f0321dd544b 1-61
+martian-28/pkg/api/basic_auth_test.go
+  h_e90f0321dd544b 1-41
+martian-47/apps/web/playwright/wipe-my-cal.e2e.ts
+  h_e90f0321dd544b 1-53
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_hu.properties
+  h_e90f0321dd544b 1-382
+martian-28/pkg/setting/setting_feature_toggles_test.go
+  h_e90f0321dd544b 1-80
+martian-21/server-spi/src/main/java/org/keycloak/models/RoleContainerModel.java
+  h_e90f0321dd544b 1-76
+martian-32/app/assets/stylesheets/common/components/navs.css.scss
+  h_e90f0321dd544b 1-97
+martian-21/server-spi/src/main/java/org/keycloak/models/UserLoginFailureModel.java
+  h_e90f0321dd544b 1-41
+martian-6/crypto/fips1402/src/main/java/org/keycloak/crypto/fips/BCFIPSPemUtilsProvider.java
+  h_e90f0321dd544b 1-120
+martian-47/apps/web/playwright/change-theme.e2e.ts
+  h_e90f0321dd544b 1-45
+martian-38/app/models/topic_participants_summary.rb
+  h_e90f0321dd544b 1-37
+martian-28/packages/grafana-data/src/types/plugin.ts
+  h_e90f0321dd544b 1-214
+martian-41/packages/trpc/server/routers/viewer/bookings.tsx
+  h_e90f0321dd544b 1-1021
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_ru.properties
+  h_e90f0321dd544b 1-24
+martian-32/app/assets/stylesheets/common/base/lightbox.scss
+  h_e90f0321dd544b 1-59
+martian-38/app/assets/javascripts/discourse/lib/desktop-notifications.js.es6
+  h_e90f0321dd544b 1-159
+martian-6/authz/client/src/main/java/org/keycloak/authorization/client/AuthorizationDeniedException.java
+  h_e90f0321dd544b 1-32
+martian-47/packages/features/auth/lib/next-auth-options.ts
+  h_e90f0321dd544b 1-724
+martian-28/pkg/api/annotations.go
+  h_e90f0321dd544b 1-889
+martian-6/crypto/fips1402/src/main/java/org/keycloak/crypto/fips/BCFIPSOCSPProvider.java
+  h_e90f0321dd544b 1-450
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_pl.properties
+  h_e90f0321dd544b 1-382
+martian-47/packages/prisma/seed.ts
+  h_e90f0321dd544b 1-516
+martian-38/app/controllers/categories_controller.rb
+  h_e90f0321dd544b 1-158
+martian-41/apps/web/test/lib/parseZone.test.ts
+  h_e90f0321dd544b 1-8
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_fr.properties
+  h_e90f0321dd544b 1-197
+martian-28/pkg/setting/setting_quota.go
+  h_e90f0321dd544b 1-71
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_pt.properties
+  h_e90f0321dd544b 1-406
+martian-38/app/controllers/export_csv_controller.rb
+  h_e90f0321dd544b 1-30
+martian-41/packages/types/AppHandler.d.ts
+  h_e90f0321dd544b 1-19
+martian-41/packages/lib/availability.ts
+  h_e90f0321dd544b 1-169
+martian-28/pkg/api/accesscontrol.go
+  h_e90f0321dd544b 1-660
+martian-38/app/models/screened_url.rb
+  h_e90f0321dd544b 1-58
+martian-38/app/models/topic_link_click.rb
+  h_e90f0321dd544b 1-99
+martian-38/app/models/admin_dashboard_data.rb
+  h_e90f0321dd544b 1-191
+martian-28/packages/grafana-data/src/types/config.ts
+  h_e90f0321dd544b 1-249
+martian-41/packages/trpc/server/routers/viewer/apps.tsx
+  h_e90f0321dd544b 1-359
+martian-32/app/assets/stylesheets/desktop/topic-post.scss
+  h_e90f0321dd544b 1-1023
+martian-38/app/models/post.rb
+  h_e90f0321dd544b 1-645
+martian-41/packages/trpc/server/routers/viewer/teams.tsx
+  h_e90f0321dd544b 1-738
+martian-41/packages/lib/notEmpty.ts
+  h_e90f0321dd544b 1-3
+martian-21/model/infinispan/src/main/java/org/keycloak/models/cache/infinispan/idp/InfinispanIdentityProviderStorageProviderFactory.java
+  h_e90f0321dd544b 1-55
+martian-41/packages/lib/timeFormat.ts
+  h_e90f0321dd544b 1-55
+martian-28/pkg/api/health_test.go
+  h_e90f0321dd544b 1-189
+martian-41/packages/lib/isOutOfBounds.tsx
+  h_e90f0321dd544b 1-58
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_cs.properties
+  h_e90f0321dd544b 1-170
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_ka.properties
+  h_e90f0321dd544b 1-64
+martian-38/app/models/category_custom_field.rb
+  h_e90f0321dd544b 1-19
+martian-41/packages/lib/bookingSuccessRedirect.ts
+  h_e90f0321dd544b 1-32
+martian-41/packages/lib/objectKeys.ts
+  h_e90f0321dd544b 1-7
+martian-0/js/apps/admin-ui/maven-resources-community/theme/keycloak.v2/admin/messages/messages_no.properties
+  h_e90f0321dd544b 1-531
+martian-28/packages/grafana-data/src/types/queryRunner.ts
+  h_e90f0321dd544b 1-41
+martian-32/app/assets/stylesheets/common/base/_topic-list.scss
+  h_e90f0321dd544b 1-302
+martian-38/app/models/upload.rb
+  h_e90f0321dd544b 1-247
+martian-41/packages/lib/isKeyInObject.ts
+  h_e90f0321dd544b 1
+martian-47/apps/web/playwright/booking-pages.e2e.ts
+  h_e90f0321dd544b 1-270
+martian-28/pkg/api/folder_test.go
+  h_e90f0321dd544b 1-525
+martian-32/app/assets/stylesheets/mobile/directory.scss
+  h_e90f0321dd544b 1-48
+martian-21/server-spi/src/main/java/org/keycloak/models/ClientSessionContext.java
+  h_e90f0321dd544b 1-65
+martian-38/app/models/topic_link.rb
+  h_e90f0321dd544b 1-237
+martian-6/crypto/default/src/main/java/org/keycloak/crypto/def/DefaultCryptoProvider.java
+  h_e90f0321dd544b 1-189
+martian-28/pkg/setting/expanders.go
+  h_e90f0321dd544b 1-153
+martian-47/apps/web/playwright/webhook.e2e.ts
+  h_e90f0321dd544b 1-444
+martian-28/pkg/api/dtos/models.go
+  h_e90f0321dd544b 1-156
+martian-38/app/controllers/draft_controller.rb
+  h_e90f0321dd544b 1-21
+martian-28/pkg/api/plugin_metrics.go
+  h_e90f0321dd544b 1-46
+martian-38/app/controllers/topics_controller.rb
+  h_e90f0321dd544b 1-522
+martian-47/apps/web/pages/api/auth/two-factor/totp/enable.ts
+  h_e90f0321dd544b 1-66
+martian-38/app/models/trust_level3_requirements.rb
+  h_e90f0321dd544b 1-220
+martian-38/app/assets/javascripts/discourse/lib/user-search.js.es6
+  h_e90f0321dd544b 1-112
+martian-38/app/models/group_custom_field.rb
+  h_e90f0321dd544b 1-19
+martian-47/apps/web/playwright/login.2fa.e2e.ts
+  h_e90f0321dd544b 1-156
+martian-28/packages/grafana-data/src/types/fieldOverrides.ts
+  h_e90f0321dd544b 1-154
+martian-19/pkg/services/authz/rbac/metrics.go
+  h_e90f0321dd544b 1-39
+martian-19/pkg/services/authz/wireset.go
+  h_e90f0321dd544b 1-10
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_th.properties
+  h_e90f0321dd544b 1-49
+martian-47/packages/prisma/seed-performance-testing.ts
+  h_e90f0321dd544b 1-325
+martian-6/crypto/fips1402/src/main/java/org/keycloak/crypto/fips/FIPS1402Provider.java
+  h_e90f0321dd544b 1-386
+martian-19/pkg/services/authz/README.md
+  h_e90f0321dd544b 1-70
+martian-28/packages/grafana-data/src/types/orgs.ts
+  h_e90f0321dd544b 1-12
+martian-28/pkg/api/dtos/alerting_test.go
+  h_e90f0321dd544b 1-35
+martian-6/common/src/main/java/org/keycloak/common/crypto/UserIdentityExtractorProvider.java
+  h_e90f0321dd544b 1-147
+martian-0/js/apps/account-ui/maven-resources/theme/keycloak.v3/account/messages/messages_en.properties
+  h_e90f0321dd544b 1-217
+martian-32/app/assets/stylesheets/common/base/colorpicker.scss
+  h_e90f0321dd544b 1-32
+martian-41/packages/lib/markdownToSafeHTML.ts
+  h_e90f0321dd544b 1-23
+martian-38/app/models/site_text.rb
+  h_e90f0321dd544b 1-47
+martian-28/pkg/services/anonymous/anonimpl/anonstore/database.go
+  h_e90f0321dd544b 1-136
+martian-47/packages/features/auth/lib/validPassword.ts
+  h_e90f0321dd544b 1-9
+martian-41/packages/lib/isBookingLimits.ts
+  h_e90f0321dd544b 1-13
+martian-32/app/assets/stylesheets/common/components/banner.css.scss
+  h_e90f0321dd544b 1-27
+martian-38/app/assets/javascripts/discourse/lib/probes.js
+  h_e90f0321dd544b 1-176
+martian-28/pkg/api/dtos/models_test.go
+  h_e90f0321dd544b 1-149
+martian-28/pkg/api/annotations_test.go
+  h_e90f0321dd544b 1-529
+martian-21/server-spi/src/main/java/org/keycloak/models/RoleMapperModel.java
+  h_e90f0321dd544b 1-86
+martian-47/packages/lib/test/builder.ts
+  h_e90f0321dd544b 1-226
+martian-28/pkg/api/plugin_resource.go
+  h_e90f0321dd544b 1-129
+martian-32/app/assets/stylesheets/common/base/directory.scss
+  h_e90f0321dd544b 1-61
+martian-38/app/controllers/highlight_js_controller.rb
+  h_e90f0321dd544b 1-29
+martian-21/server-spi/src/main/java/org/keycloak/models/UserSessionProvider.java
+  h_e90f0321dd544b 1-231
+martian-38/app/assets/javascripts/discourse/lib/link-mentions.js.es6
+  h_e90f0321dd544b 1-43
+martian-38/app/assets/javascripts/discourse/lib/onebox.js
+  h_e90f0321dd544b 1-106
+martian-38/app/assets/javascripts/discourse/lib/load-script.js.es6
+  h_e90f0321dd544b 1-66
+martian-28/pkg/api/frontend_logging_test.go
+  h_e90f0321dd544b 1-298
+martian-32/app/assets/stylesheets/common/admin/admin_base.scss
+  h_e90f0321dd544b 1-1665
+martian-32/app/assets/stylesheets/common/base/discourse.scss
+  h_e90f0321dd544b 1-238
+martian-47/apps/web/playwright/unpublished.e2e.ts
+  h_e90f0321dd544b 1-120
+martian-41/packages/lib/weekday.test.ts
+  h_e90f0321dd544b 1-64
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_lt.properties
+  h_e90f0321dd544b 1-219
+martian-38/app/assets/javascripts/discourse/lib/keyboard_shortcuts.js
+  h_e90f0321dd544b 1-380
+martian-28/pkg/api/swagger_tags.json
+  h_e90f0321dd544b 1-92
+martian-28/pkg/api/metrics_test.go
+  h_e90f0321dd544b 1-337
+martian-47/apps/web/playwright/manage-booking-questions.e2e.ts
+  h_e90f0321dd544b 1-620
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_pl.properties
+  h_e90f0321dd544b 1-322
+martian-19/pkg/services/authz/rbac/cache.go
+  h_e90f0321dd544b 1-88
+martian-28/pkg/api/frontend_metrics.go
+  h_e90f0321dd544b 1-25
+martian-32/app/assets/stylesheets/embed.css.scss
+  h_e90f0321dd544b 1-145
+martian-28/pkg/api/apikey.go
+  h_e90f0321dd544b 1-207
+martian-28/pkg/api/signup.go
+  h_e90f0321dd544b 1-176
+martian-38/app/models/color_scheme.rb
+  h_e90f0321dd544b 1-117
+martian-32/app/assets/stylesheets/common/components/keyboard_shortcuts.css.scss
+  h_e90f0321dd544b 1-42
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_no.properties
+  h_e90f0321dd544b 1-24
+martian-9/src/sentry/consumers/synchronized.py
+  h_e90f0321dd544b 1-306
+martian-28/pkg/setting/expanders_test.go
+  h_e90f0321dd544b 1-96
+martian-32/app/assets/stylesheets/mobile/faqs.scss
+  h_e90f0321dd544b 1-10
+martian-28/pkg/api/dtos/invite.go
+  h_e90f0321dd544b 1-26
+martian-28/pkg/api/plugins.go
+  h_e90f0321dd544b 1-564
+martian-0/js/apps/admin-ui/maven-resources-community/theme/keycloak.v2/admin/messages/messages_de.properties
+  h_e90f0321dd544b 1-1272
+martian-38/app/assets/javascripts/discourse/lib/copy-text.js.es6
+  h_e90f0321dd544b 1-34
+martian-38/app/models/incoming_link.rb
+  h_e90f0321dd544b 1-131
+martian-47/apps/web/playwright/integrations.e2e.ts
+  h_e90f0321dd544b 1-356
+martian-38/app/models/optimized_image.rb
+  h_e90f0321dd544b 1-248
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_sk.properties
+  h_e90f0321dd544b 1-49
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_es.properties
+  h_e90f0321dd544b 1-492
+martian-41/packages/trpc/server/routers/viewer/workflows.tsx
+  h_e90f0321dd544b 1-1580
+martian-19/pkg/services/authz/rbac/service.go
+  h_e90f0321dd544b 1-669
+martian-41/apps/web/test/lib/getAvailabilityFromSchedule.test.ts
+  h_e90f0321dd544b 1-70
+martian-38/app/models/plugin_store.rb
+  h_e90f0321dd544b 1-51
+martian-41/packages/lib/errors.ts
+  h_e90f0321dd544b 1-42
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_ar.properties
+  h_e90f0321dd544b 1-382
+martian-28/packages/grafana-data/src/types/live.ts
+  h_e90f0321dd544b 1-197
+martian-41/packages/types/App.d.ts
+  h_e90f0321dd544b 1-159
+martian-47/packages/prisma/package.json
+  h_e90f0321dd544b 1-44
+martian-28/pkg/api/alerting.go
+  h_e90f0321dd544b 1-1048
+martian-38/app/assets/javascripts/discourse/lib/sharing.js.es6
+  h_e90f0321dd544b 1-39
+martian-28/packages/grafana-data/src/types/templateVars.ts
+  h_e90f0321dd544b 1-167
+martian-41/packages/lib/validateIntervalLimitOrder.ts
+  h_e90f0321dd544b 1-15
+martian-38/app/models/digest_email_site_setting.rb
+  h_e90f0321dd544b 1-23
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_sk.properties
+  h_e90f0321dd544b 1-501
+martian-41/packages/lib/fetchUsername.ts
+  h_e90f0321dd544b 1-21
+martian-28/packages/grafana-data/src/types/pluginExtensions.ts
+  h_e90f0321dd544b 1-161
+martian-6/crypto/default/src/main/java/org/keycloak/crypto/def/BCUserIdentityExtractorProvider.java
+  h_e90f0321dd544b 1-225
+martian-6/crypto/default/src/main/java/org/keycloak/crypto/def/BCPemUtilsProvider.java
+  h_e90f0321dd544b 1-76
+martian-32/app/assets/stylesheets/desktop/user.scss
+  h_e90f0321dd544b 1-620
+martian-41/packages/lib/getBrandColours.tsx
+  h_e90f0321dd544b 1-197
+martian-28/pkg/api/dtos/user.go
+  h_e90f0321dd544b 1-46
+martian-38/app/controllers/site_controller.rb
+  h_e90f0321dd544b 1-27
+martian-38/app/models/user_search_data.rb
+  h_e90f0321dd544b 1-18
+martian-21/model/infinispan/src/main/java/org/keycloak/models/cache/infinispan/idp/CachedIdentityProviderMapper.java
+  h_e90f0321dd544b 1-44
+martian-28/pkg/api/plugin_proxy.go
+  h_e90f0321dd544b 1-71
+martian-38/app/controllers/queued_posts_controller.rb
+  h_e90f0321dd544b 1-57
+martian-41/packages/lib/timezone.ts
+  h_e90f0321dd544b 1-39
+martian-28/pkg/setting/setting_plugins_test.go
+  h_e90f0321dd544b 1-60
+martian-28/packages/grafana-data/src/types/navModel.ts
+  h_e90f0321dd544b 1-62
+martian-38/app/models/github_user_info.rb
+  h_e90f0321dd544b 1-20
+martian-38/app/models/topic_invite.rb
+  h_e90f0321dd544b 1-25
+martian-28/pkg/setting/setting_featuremgmt.go
+  h_e90f0321dd544b 1-38
+martian-32/app/assets/stylesheets/common/base/activation.scss
+  h_e90f0321dd544b 1-10
+martian-28/packages/grafana-data/src/types/variables.ts
+  h_e90f0321dd544b 1-100
+martian-41/packages/trpc/server/routers/viewer/slots.ts
+  h_e90f0321dd544b 1-564
+martian-28/packages/grafana-data/src/types/dashboard.ts
+  h_e90f0321dd544b 1-48
+martian-21/server-spi/src/main/java/org/keycloak/models/ClientScopeDecorator.java
+  h_e90f0321dd544b 1-207
+martian-47/packages/ui/components/form/inputs/Label.tsx
+  h_e90f0321dd544b 1-11
+martian-41/packages/lib/crypto.ts
+  h_e90f0321dd544b 1-42
+martian-28/pkg/api/frontendsettings_test.go
+  h_e90f0321dd544b 1-352
+martian-38/app/models/emoji_set_site_setting.rb
+  h_e90f0321dd544b 1-43
+martian-41/packages/lib/webstorage.ts
+  h_e90f0321dd544b 1-28
+martian-21/server-spi/src/main/java/org/keycloak/models/UserConsentModel.java
+  h_e90f0321dd544b 1-72
+martian-38/app/controllers/directory_items_controller.rb
+  h_e90f0321dd544b 1-62
+martian-41/apps/web/test/lib/getTimezone.test.ts
+  h_e90f0321dd544b 1-81
+martian-47/apps/web/pages/auth/verify-email.tsx
+  h_e90f0321dd544b 1-60
+martian-41/packages/lib/http-error.ts
+  h_e90f0321dd544b 1-33
+martian-28/pkg/api/folder_permission.go
+  h_e90f0321dd544b 1-195
+martian-47/apps/web/playwright/event-types.e2e.ts
+  h_e90f0321dd544b 1-199
+martian-41/packages/lib/classNames.ts
+  h_e90f0321dd544b 1-5
+martian-21/server-spi/src/main/java/org/keycloak/models/KeycloakSessionTaskWithResult.java
+  h_e90f0321dd544b 1-35
+martian-9/tests/sentry/spans/consumers/process/test_consumer.py
+  h_e90f0321dd544b 1-76
+martian-21/server-spi/src/main/java/org/keycloak/models/OAuth2DeviceConfig.java
+  h_e90f0321dd544b 1-124
+martian-28/pkg/api/dtos/acl.go
+  h_e90f0321dd544b 1-25
+martian-28/pkg/api/dtos/short_url.go
+  h_e90f0321dd544b 1-10
+martian-38/app/assets/javascripts/discourse/lib/lightbox.js.es6
+  h_e90f0321dd544b 1-47
+martian-28/pkg/api/login_oauth_test.go
+  h_e90f0321dd544b 1-214
+martian-0/themes/src/main/resources/theme/base/login/messages/messages_en.properties
+  h_e90f0321dd544b 1-537
+martian-28/pkg/services/anonymous/anonimpl/impl_test.go
+  h_e90f0321dd544b 1-181
+martian-28/pkg/api/api.go
+  h_e90f0321dd544b 1-638
+martian-38/app/models/user_email_observer.rb
+  h_e90f0321dd544b 1-85
+martian-38/app/models/invited_group.rb
+  h_e90f0321dd544b 1-15
+martian-21/server-spi/src/main/java/org/keycloak/models/ClaimTypeModel.java
+  h_e90f0321dd544b 1-100
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_fr.properties
+  h_e90f0321dd544b 1-447
+martian-6/crypto/fips1402/src/main/java/org/keycloak/crypto/fips/AbstractDelegatingSSLSocket.java
+  h_e90f0321dd544b 1-318
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_sk.properties
+  h_e90f0321dd544b 1-195
+martian-0/js/apps/admin-ui/maven-resources-community/theme/keycloak.v2/admin/messages/messages_nl.properties
+  h_e90f0321dd544b 1
+martian-21/server-spi/src/main/java/org/keycloak/models/KeycloakSessionFactory.java
+  h_e90f0321dd544b 1-61
+martian-19/pkg/services/authz/rbac/tree_test.go
+  h_e90f0321dd544b 1-106
+martian-47/packages/prisma/enum-generator.ts
+  h_e90f0321dd544b 1-37
+martian-38/app/models/report.rb
+  h_e90f0321dd544b 1-213
+martian-21/server-spi/src/main/java/org/keycloak/models/RequiredCredentialModel.java
+  h_e90f0321dd544b 1-115
+martian-47/apps/web/playwright/login.oauth.e2e.ts
+  h_e90f0321dd544b 1-21
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_zh_TW.properties
+  h_e90f0321dd544b 1-387
+martian-32/app/assets/stylesheets/common/base/emoji.scss
+  h_e90f0321dd544b 1-98
+martian-21/server-spi/src/main/java/org/keycloak/models/ModelException.java
+  h_e90f0321dd544b 1-50
+martian-41/packages/types/AppGetServerSideProps.d.ts
+  h_e90f0321dd544b 1-19
+martian-6/authz/client/src/main/java/org/keycloak/authorization/client/AuthzClient.java
+  h_e90f0321dd544b 1-278
+martian-41/packages/lib/telemetry.ts
+  h_e90f0321dd544b 1-116
+martian-21/server-spi/src/main/java/org/keycloak/models/RealmModel.java
+  h_e90f0321dd544b 1-818
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_de.properties
+  h_e90f0321dd544b 1-61
+martian-47/apps/web/playwright/change-password.e2e.ts
+  h_e90f0321dd544b 1-30
+martian-38/app/assets/javascripts/discourse/lib/safari-hacks.js.es6
+  h_e90f0321dd544b 1-107
+martian-6/crypto/elytron/src/main/java/org/keycloak/crypto/elytron/ElytronRsaKeyEncryptionJWEAlgorithmProvider.java
+  h_e90f0321dd544b 1-62
+martian-38/app/models/topic_poster.rb
+  h_e90f0321dd544b 1-19
+martian-28/pkg/api/metrics.go
+  h_e90f0321dd544b 1-97
+martian-38/app/models/color_scheme_color.rb
+  h_e90f0321dd544b 1-21
+martian-47/packages/prisma/delete-app.ts
+  h_e90f0321dd544b 1-35
+martian-32/app/assets/stylesheets/common/base/topic-admin-menu.scss
+  h_e90f0321dd544b 1-70
+martian-47/packages/ui/components/form/inputs/InputFieldWithSelect.tsx
+  h_e90f0321dd544b 1-19
+martian-38/app/assets/javascripts/discourse/lib/page-tracker.js.es6
+  h_e90f0321dd544b 1-37
+martian-32/app/assets/stylesheets/common/base/onebox.scss
+  h_e90f0321dd544b 1-261
+martian-41/packages/lib/random.test.ts
+  h_e90f0321dd544b 1-30
+martian-47/apps/web/public/static/locales/en/common.json
+  h_e90f0321dd544b 1-2031
+martian-32/app/assets/stylesheets/common/base/code_highlighting.scss
+  h_e90f0321dd544b 1-139
+martian-38/app/assets/javascripts/discourse/lib/caret_position.js
+  h_e90f0321dd544b 1-136
+martian-28/packages/grafana-data/src/types/valueMapping.ts
+  h_e90f0321dd544b 1-97
+martian-28/pkg/setting/setting_plugins.go
+  h_e90f0321dd544b 1-71
+martian-47/apps/web/playwright/dynamic-booking-pages.e2e.ts
+  h_e90f0321dd544b 1-60
+martian-21/server-spi/src/main/java/org/keycloak/models/UserProvider.java
+  h_e90f0321dd544b 1-300
+martian-38/app/models/plugin_store_row.rb
+  h_e90f0321dd544b 1-17
+martian-38/app/controllers/embed_controller.rb
+  h_e90f0321dd544b 1-71
+martian-47/packages/ui/components/form/inputs/types.d.ts
+  h_e90f0321dd544b 1-25
+martian-28/pkg/api/plugin_dashboards_test.go
+  h_e90f0321dd544b 1-133
+martian-28/pkg/services/anonymous/anonimpl/client.go
+  h_e90f0321dd544b 1-87
+martian-47/packages/features/auth/lib/isPasswordValid.ts
+  h_e90f0321dd544b 1-26
+martian-21/server-spi/src/main/java/org/keycloak/models/IdentityProviderMapperModel.java
+  h_e90f0321dd544b 1-154
+martian-21/model/infinispan/src/main/java/org/keycloak/models/cache/infinispan/idp/InfinispanIdentityProviderStorageProvider.java
+  h_e90f0321dd544b 1-353
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_lv.properties
+  h_e90f0321dd544b 1-179
+martian-38/app/models/draft_sequence.rb
+  h_e90f0321dd544b 1-43
+martian-47/packages/lib/test/CalEventParser.test.ts
+  h_e90f0321dd544b 1-78
+martian-38/app/models/screened_email.rb
+  h_e90f0321dd544b 1-82
+martian-38/app/models/site_setting.rb
+  h_e90f0321dd544b 1-132
+martian-21/server-spi/src/main/java/org/keycloak/models/RoleModel.java
+  h_e90f0321dd544b 1-103
+martian-28/pkg/setting/setting_smtp.go
+  h_e90f0321dd544b 1-41
+martian-38/app/models/username_validator.rb
+  h_e90f0321dd544b 1-72
+martian-41/packages/types/inferSSRProps.d.ts
+  h_e90f0321dd544b 1-11
+martian-28/pkg/api/utils.go
+  h_e90f0321dd544b 1-34
+martian-28/pkg/api/admin_users_test.go
+  h_e90f0321dd544b 1-538
+martian-38/app/controllers/posts_controller.rb
+  h_e90f0321dd544b 1-519
+martian-47/apps/web/pages/auth/verify.tsx
+  h_e90f0321dd544b 1-178
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_el.properties
+  h_e90f0321dd544b 1-355
+martian-28/pkg/api/dtos/frontend_settings.go
+  h_e90f0321dd544b 1-244
+martian-38/app/assets/javascripts/discourse/lib/export-csv.js.es6
+  h_e90f0321dd544b 1-19
+martian-41/packages/types/EventManager.d.ts
+  h_e90f0321dd544b 1-37
+martian-32/app/assets/stylesheets/desktop_rtl.scss
+  h_e90f0321dd544b 1-2
+martian-28/packages/grafana-data/src/types/options.ts
+  h_e90f0321dd544b 1-55
+martian-32/app/assets/stylesheets/mobile/discourse.scss
+  h_e90f0321dd544b 1-97
+martian-6/crypto/elytron/src/main/java/org/keycloak/crypto/elytron/ElytronRsaKeyEncryption256JWEAlgorithmProvider.java
+  h_e90f0321dd544b 1-45
+martian-47/packages/prisma/seed-insights.ts
+  h_e90f0321dd544b 1-541
+martian-38/app/models/topic_posters_summary.rb
+  h_e90f0321dd544b 1-77
+martian-41/packages/lib/weekday.ts
+  h_e90f0321dd544b 1-16
+martian-38/app/assets/javascripts/discourse/lib/Markdown.Editor.js
+  h_e90f0321dd544b 1-2184
+martian-0/js/apps/admin-ui/maven-resources-community/theme/keycloak.v2/admin/messages/messages_lt.properties
+  h_e90f0321dd544b 1-569
+martian-19/pkg/services/authz/rbac/tree.go
+  h_e90f0321dd544b 1-108
+martian-38/app/controllers/stylesheets_controller.rb
+  h_e90f0321dd544b 1-58
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_uk.properties
+  h_e90f0321dd544b 1-383
+martian-6/crypto/fips1402/src/main/java/org/keycloak/crypto/fips/BCFIPSEcdhEsAlgorithmProvider.java
+  h_e90f0321dd544b 1-262
+martian-38/app/models/post_action_type.rb
+  h_e90f0321dd544b 1-62
+martian-28/packages/grafana-data/src/types/query.ts
+  h_e90f0321dd544b 1-87
+martian-28/pkg/api/search.go
+  h_e90f0321dd544b 1-209
+martian-32/app/assets/stylesheets/common/base/faqs.scss
+  h_e90f0321dd544b 1-32
+martian-32/app/assets/stylesheets/desktop/banner.scss
+  h_e90f0321dd544b 1-9
+martian-47/packages/features/auth/lib/identityProviderNameMap.ts
+  h_e90f0321dd544b 1-7
+martian-47/apps/web/components/settings/DisableTwoFactorModal.tsx
+  h_e90f0321dd544b 1-112
+martian-28/packages/grafana-data/src/types/data.test.ts
+  h_e90f0321dd544b 1-61
+martian-28/pkg/api/dtos/live.go
+  h_e90f0321dd544b 1-11
+martian-28/pkg/api/http_server_test.go
+  h_e90f0321dd544b 1-29
+martian-6/crypto/elytron/src/main/java/org/keycloak/crypto/elytron/WildFlyElytronProvider.java
+  h_e90f0321dd544b 1-203
+martian-38/app/assets/javascripts/discourse/lib/div_resizer.js
+  h_e90f0321dd544b 1-91
+martian-47/packages/features/auth/lib/passwordResetRequest.ts
+  h_e90f0321dd544b 1-51
+martian-28/packages/grafana-data/src/types/select.ts
+  h_e90f0321dd544b 1-18
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_hu.properties
+  h_e90f0321dd544b 1-50
+martian-38/app/models/single_sign_on_record.rb
+  h_e90f0321dd544b 1-23
+martian-28/pkg/api/admin_users.go
+  h_e90f0321dd544b 1-521
+martian-28/packages/grafana-data/src/types/icon.ts
+  h_e90f0321dd544b 1-254
+martian-19/pkg/services/authz/token_auth.go
+  h_e90f0321dd544b 1-34
+martian-38/app/models/post_alert_observer.rb
+  h_e90f0321dd544b 1-67
+martian-38/app/assets/javascripts/discourse/lib/autocomplete.js.es6
+  h_e90f0321dd544b 1-424
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_uk.properties
+  h_e90f0321dd544b 1-493
+martian-28/pkg/api/dtos/folder.go
+  h_e90f0321dd544b 1-38
+martian-38/app/models/warning.rb
+  h_e90f0321dd544b 1-22
+martian-38/app/models/invite.rb
+  h_e90f0321dd544b 1-249
+martian-41/packages/lib/hasKeyInMetadata.ts
+  h_e90f0321dd544b 1-9
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_es.properties
+  h_e90f0321dd544b 1-64
+martian-28/pkg/api/health.go
+  h_e90f0321dd544b 1-25
+martian-47/apps/web/playwright/bookings-list.e2e.ts
+  h_e90f0321dd544b 1-113
+martian-38/app/models/post_action.rb
+  h_e90f0321dd544b 1-557
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_da.properties
+  h_e90f0321dd544b 1-348
+martian-47/apps/web/pages/auth/login.tsx
+  h_e90f0321dd544b 1-319
+martian-38/app/models/topic_custom_field.rb
+  h_e90f0321dd544b 1-20
+martian-0/js/apps/admin-ui/maven-resources-community/theme/keycloak.v2/admin/messages/messages_fr.properties
+  h_e90f0321dd544b 1-116
+martian-41/packages/lib/isProblematicTimezone.ts
+  h_e90f0321dd544b 1-49
+martian-9/tests/sentry/spans/consumers/process/__init__.py
+  h_e90f0321dd544b 1-29
+martian-0/js/apps/admin-ui/maven-resources-community/theme/keycloak.v2/admin/messages/messages_ru.properties
+  h_e90f0321dd544b 1-612
+martian-6/crypto/fips1402/src/main/java/org/keycloak/crypto/fips/KeycloakFipsSecurityProvider.java
+  h_e90f0321dd544b 1-60
+martian-6/crypto/default/src/main/java/org/keycloak/crypto/def/AesKeyWrapAlgorithmProvider.java
+  h_e90f0321dd544b 1-52
+martian-28/pkg/api/common_test.go
+  h_e90f0321dd544b 1-333
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_zh_CN.properties
+  h_e90f0321dd544b 1-24
+martian-38/app/assets/javascripts/discourse/lib/show-modal.js.es6
+  h_e90f0321dd544b 1-42
+martian-0/misc/theme-verifier/src/main/java/org/keycloak/themeverifier/VerifyMessageProperties.java
+  h_e90f0321dd544b 1-73
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_no.properties
+  h_e90f0321dd544b 1-152
+martian-41/packages/lib/getBooking.tsx
+  h_e90f0321dd544b 1-107
+martian-41/packages/types/@wojtekmaj__react-daterange-picker.d.ts
+  h_e90f0321dd544b 1-18
+martian-47/apps/web/playwright/app-store.e2e.ts
+  h_e90f0321dd544b 1-38
+martian-41/packages/lib/env.ts
+  h_e90f0321dd544b 1-2
+martian-38/app/controllers/user_avatars_controller.rb
+  h_e90f0321dd544b 1-112
+martian-38/app/controllers/similar_topics_controller.rb
+  h_e90f0321dd544b 1-39
+martian-38/app/models/invite_redeemer.rb
+  h_e90f0321dd544b 1-122
+martian-38/app/assets/javascripts/discourse/lib/click-track.js.es6
+  h_e90f0321dd544b 1-114
+martian-6/crypto/fips1402/src/main/java/org/keycloak/crypto/fips/BCFIPSUserIdentityExtractorProvider.java
+  h_e90f0321dd544b 1-223
+martian-38/app/controllers/badges_controller.rb
+  h_e90f0321dd544b 1-50
+martian-32/app/assets/stylesheets/mobile.scss
+  h_e90f0321dd544b 1-26
+martian-19/pkg/services/authz/rbac/service_test.go
+  h_e90f0321dd544b 1-1300
+martian-28/pkg/setting/setting_search.go
+  h_e90f0321dd544b 1-23
+martian-0/js/apps/admin-ui/maven-resources-community/theme/keycloak.v2/admin/messages/messages_es.properties
+  h_e90f0321dd544b 1-3413
+martian-38/app/models/user_search.rb
+  h_e90f0321dd544b 1-99
+martian-47/packages/ui/components/form/inputs/Form.tsx
+  h_e90f0321dd544b 1-42
+martian-38/app/models/quoted_post.rb
+  h_e90f0321dd544b 1-76
+martian-32/app/assets/stylesheets/common/base/about.scss
+  h_e90f0321dd544b 1-32
+martian-21/server-spi/src/main/java/org/keycloak/models/UserCredentialModel.java
+  h_e90f0321dd544b 1-210
+martian-32/app/assets/stylesheets/mobile/alert.scss
+  h_e90f0321dd544b 1-10
+martian-28/pkg/api/datasources.go
+  h_e90f0321dd544b 1-1143
+martian-41/packages/trpc/server/routers/viewer/auth.tsx
+  h_e90f0321dd544b 1-93
+martian-47/apps/web/pages/auth/logout.tsx
+  h_e90f0321dd544b 1-78
+martian-6/crypto/default/src/main/java/org/keycloak/crypto/def/BCOCSPProvider.java
+  h_e90f0321dd544b 1-451
+martian-28/pkg/setting/setting.go
+  h_e90f0321dd544b 1-2059
+martian-19/pkg/services/authz/rbac_settings.go
+  h_e90f0321dd544b 1-74
+martian-47/apps/web/playwright/embed-code-generator.e2e.ts
+  h_e90f0321dd544b 1-228
+martian-47/packages/features/auth/lib/getServerSession.ts
+  h_e90f0321dd544b 1-83
+martian-6/crypto/fips1402/src/main/java/org/keycloak/crypto/fips/FIPSAesKeyWrapAlgorithmProvider.java
+  h_e90f0321dd544b 1-39
+martian-28/packages/grafana-data/src/types/dataLink.ts
+  h_e90f0321dd544b 1-130
+martian-38/app/models/group_manager.rb
+  h_e90f0321dd544b 1-19
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_ja.properties
+  h_e90f0321dd544b 1-365
+martian-28/pkg/api/dtos/org.go
+  h_e90f0321dd544b 1-14
+martian-32/app/assets/stylesheets/desktop/alert.scss
+  h_e90f0321dd544b 1-3
+martian-28/packages/grafana-data/src/types/slider.ts
+  h_e90f0321dd544b 1
+martian-28/packages/grafana-data/src/types/thresholds.ts
+  h_e90f0321dd544b 1-31
+martian-41/packages/lib/getEventTypeById.ts
+  h_e90f0321dd544b 1-363
+martian-41/packages/trpc/server/routers/viewer/deploymentSetup.tsx
+  h_e90f0321dd544b 1-24
+martian-32/app/assets/stylesheets/mobile/banner.scss
+  h_e90f0321dd544b 1-16
+martian-38/app/models/top_lists.rb
+  h_e90f0321dd544b 1-7
+martian-28/packages/grafana-data/src/types/legacyEvents.ts
+  h_e90f0321dd544b 1-49
+martian-47/apps/web/playwright/login.api.e2e.ts
+  h_e90f0321dd544b 1-21
+martian-41/apps/web/test/lib/checkBookingLimits.test.ts
+  h_e90f0321dd544b 1-119
+martian-0/misc/theme-verifier/src/main/java/org/keycloak/themeverifier/ThemeVerifierMojo.java
+  h_e90f0321dd544b 1-58
+martian-38/app/assets/javascripts/discourse/lib/notification-levels.js.es6
+  h_e90f0321dd544b 1-6
+martian-47/apps/web/playwright/change-username.e2e.ts
+  h_e90f0321dd544b 1-83
+martian-41/packages/lib/text.test.ts
+  h_e90f0321dd544b 1-70
+martian-21/server-spi/src/main/java/org/keycloak/models/CredentialValidationOutput.java
+  h_e90f0321dd544b 1-93
+martian-41/packages/lib/text.ts
+  h_e90f0321dd544b 1-20
+martian-28/pkg/api/dataproxy.go
+  h_e90f0321dd544b 1-176
+martian-19/pkg/services/authz/rbac/models.go
+  h_e90f0321dd544b 1-25
+martian-21/testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/organization/cache/OrganizationCacheTest.java
+  h_e90f0321dd544b 1-366
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_es.properties
+  h_e90f0321dd544b 1-360
+martian-32/app/assets/stylesheets/common/base/search.scss
+  h_e90f0321dd544b 1-52
+martian-32/app/assets/stylesheets/desktop/header.scss
+  h_e90f0321dd544b 1-74
+martian-47/packages/prisma/docker-compose.yml
+  h_e90f0321dd544b 1-27
+martian-28/pkg/api/dtos/user_token.go
+  h_e90f0321dd544b 1-16
+martian-28/pkg/api/plugin_metrics_test.go
+  h_e90f0321dd544b 1-160
+martian-38/app/assets/javascripts/discourse/lib/export-result.js.es6
+  h_e90f0321dd544b 1-7
+martian-28/pkg/setting/dynamic_settings_test.go
+  h_e90f0321dd544b 1-33
+martian-28/pkg/setting/setting_unified_alerting.go
+  h_e90f0321dd544b 1-420
+martian-28/pkg/api/dtos/datasource.go
+  h_e90f0321dd544b 1-63
+martian-38/app/models/post_detail.rb
+  h_e90f0321dd544b 1-23
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_ko.properties
+  h_e90f0321dd544b 1-527
+martian-38/app/models/global_setting.rb
+  h_e90f0321dd544b 1-152
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_fi.properties
+  h_e90f0321dd544b 1-379
+martian-47/apps/web/playwright/teams.e2e.ts
+  h_e90f0321dd544b 1-183
+martian-38/app/models/slug_setting.rb
+  h_e90f0321dd544b 1-17
+martian-21/server-spi/src/main/java/org/keycloak/models/PasswordPolicy.java
+  h_e90f0321dd544b 1-261
+martian-28/pkg/api/dashboard_permission_test.go
+  h_e90f0321dd544b 1-159
+martian-47/packages/features/auth/lib/verifyEmail.ts
+  h_e90f0321dd544b 1-78
+martian-47/apps/web/components/settings/TwoFactorAuthAPI.ts
+  h_e90f0321dd544b 1-33
+martian-28/pkg/setting/date_formats.go
+  h_e90f0321dd544b 1-61
+martian-0/misc/theme-verifier/src/main/java/org/keycloak/themeverifier/MessagePropertiesFilter.java
+  h_e90f0321dd544b 1-30
+martian-28/pkg/api/grafana_com_proxy.go
+  h_e90f0321dd544b 1-53
+martian-32/app/assets/stylesheets/mobile/upload.scss
+  h_e90f0321dd544b 1-16
+martian-41/packages/lib/turndownService.ts
+  h_e90f0321dd544b 1-49
+martian-38/app/models/group.rb
+  h_e90f0321dd544b 1-379
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_ja.properties
+  h_e90f0321dd544b 1-41
+martian-6/crypto/default/src/main/java/org/keycloak/crypto/def/DefaultRsaKeyEncryptionJWEAlgorithmProvider.java
+  h_e90f0321dd544b 1-42
+martian-38/app/models/user.rb
+  h_e90f0321dd544b 1-1017
+martian-28/pkg/api/plugin_dashboards.go
+  h_e90f0321dd544b 1-35
+martian-41/apps/web/test/lib/slots.test.ts
+  h_e90f0321dd544b 1-136
+martian-32/app/assets/stylesheets/desktop.scss
+  h_e90f0321dd544b 1-25
+martian-38/app/models/post_upload.rb
+  h_e90f0321dd544b 1-17
+martian-28/packages/grafana-data/src/types/live.test.ts
+  h_e90f0321dd544b 1-17
+martian-38/app/assets/javascripts/discourse/lib/utilities.js
+  h_e90f0321dd544b 1-272
+martian-38/app/assets/javascripts/discourse/lib/plugin-api.js.es6
+  h_e90f0321dd544b 1-16
+martian-28/packages/grafana-data/src/types/constants.ts
+  h_e90f0321dd544b 1-3
+martian-38/app/models/incoming_domain.rb
+  h_e90f0321dd544b 1-44
+martian-41/packages/types/Credential.d.ts
+  h_e90f0321dd544b 1-24
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_zh_TW.properties
+  h_e90f0321dd544b 1-50
+martian-28/packages/grafana-data/src/types/panel.ts
+  h_e90f0321dd544b 1-366
+martian-38/app/models/locale_site_setting.rb
+  h_e90f0321dd544b 1-23
+martian-21/server-spi/src/main/java/org/keycloak/models/OTPPolicy.java
+  h_e90f0321dd544b 1-195
+martian-32/app/assets/stylesheets/mobile/compose.scss
+  h_e90f0321dd544b 1-267
+martian-21/server-spi/src/main/java/org/keycloak/models/UserLoginFailureProvider.java
+  h_e90f0321dd544b 1-55
+martian-41/packages/lib/jsonUtils.ts
+  h_e90f0321dd544b 1-11
+martian-38/app/assets/javascripts/discourse/lib/url.js
+  h_e90f0321dd544b 1-349
+martian-32/app/assets/stylesheets/desktop/discourse.scss
+  h_e90f0321dd544b 1-522
+martian-6/crypto/elytron/src/main/java/org/keycloak/crypto/elytron/AesKeyWrapAlgorithmProvider.java
+  h_e90f0321dd544b 1-50
+martian-38/app/models/email_log.rb
+  h_e90f0321dd544b 1-52
+martian-38/app/models/s3_region_site_setting.rb
+  h_e90f0321dd544b 1-26
+martian-32/app/assets/stylesheets/common/base/username_tagsinput.scss
+  h_e90f0321dd544b 1-40
+martian-32/app/assets/stylesheets/common/base/exception.scss
+  h_e90f0321dd544b 1-30
+martian-6/crypto/elytron/src/main/java/org/keycloak/crypto/elytron/ElytronECDSACryptoProvider.java
+  h_e90f0321dd544b 1-101
+martian-38/app/controllers/composer_messages_controller.rb
+  h_e90f0321dd544b 1-13
+martian-41/packages/types/next.d.ts
+  h_e90f0321dd544b 1-24
+martian-38/app/models/backup.rb
+  h_e90f0321dd544b 1-86
+martian-0/js/apps/admin-ui/maven-resources-community/theme/keycloak.v2/admin/messages/messages_zh_CN.properties
+  h_e90f0321dd544b 1-2832
+martian-28/pkg/services/anonymous/anonimpl/api/api.go
+  h_e90f0321dd544b 1-98
+martian-28/pkg/api/README.md
+  h_e90f0321dd544b 1-82
+martian-38/app/models/screened_ip_address.rb
+  h_e90f0321dd544b 1-187
+martian-32/app/assets/stylesheets/common/base/login.scss
+  h_e90f0321dd544b 1-55
+martian-38/app/assets/javascripts/discourse/lib/static-route-builder.js.es6
+  h_e90f0321dd544b 1-42
+martian-38/app/controllers/static_controller.rb
+  h_e90f0321dd544b 1-114
+martian-32/app/assets/stylesheets/common/base/request_access.scss
+  h_e90f0321dd544b 1-13
+martian-28/packages/grafana-data/src/types/ScopedVars.ts
+  h_e90f0321dd544b 1-26
+martian-32/app/assets/stylesheets/mobile/user.scss
+  h_e90f0321dd544b 1-607
+martian-21/server-spi/src/main/java/org/keycloak/models/ScopeContainerModel.java
+  h_e90f0321dd544b 1-70
+martian-28/pkg/setting/setting_azure_test.go
+  h_e90f0321dd544b 1-218
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_lt.properties
+  h_e90f0321dd544b 1-153
+martian-6/common/src/main/java/org/keycloak/common/crypto/PemUtilsProvider.java
+  h_e90f0321dd544b 1-156
+martian-38/app/assets/javascripts/discourse/lib/mobile.js
+  h_e90f0321dd544b 1-49
+martian-38/app/models/topic_user.rb
+  h_e90f0321dd544b 1-360
+martian-32/app/assets/stylesheets/desktop/history.scss
+  h_e90f0321dd544b 1-65
+martian-41/packages/lib/defaultAvatarImage.ts
+  h_e90f0321dd544b 1-31
+martian-21/server-spi/src/main/java/org/keycloak/models/ScriptModel.java
+  h_e90f0321dd544b 1-60
+martian-41/packages/types/BufferedBusyTime.d.ts
+  h_e90f0321dd544b 1-4
+martian-38/app/controllers/onebox_controller.rb
+  h_e90f0321dd544b 1-17
+martian-28/pkg/api/admin.go
+  h_e90f0321dd544b 1-173
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_pt_BR.properties
+  h_e90f0321dd544b 1-350
+martian-21/server-spi/src/main/java/org/keycloak/models/RequiredActionConfigModel.java
+  h_e90f0321dd544b 1-87
+martian-41/packages/trpc/server/routers/viewer/apiKeys.tsx
+  h_e90f0321dd544b 1-153
+martian-41/apps/web/test/lib/checkDurationLimits.test.ts
+  h_e90f0321dd544b 1-128
+martian-6/common/src/main/java/org/keycloak/common/crypto/CertificateUtilsProvider.java
+  h_e90f0321dd544b 1-76
+martian-41/packages/trpc/server/routers/viewer/availability.tsx
+  h_e90f0321dd544b 1-499
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_tr.properties
+  h_e90f0321dd544b 1-315
+martian-41/packages/lib/sanitizeCalendarObject.ts
+  h_e90f0321dd544b 1-30
+martian-0/js/apps/admin-ui/maven-resources-community/theme/keycloak.v2/admin/messages/messages_ca.properties
+  h_e90f0321dd544b 1-280
+martian-38/app/models/user_badge.rb
+  h_e90f0321dd544b 1-42
+martian-28/pkg/services/anonymous/anonimpl/anonstore/fake.go
+  h_e90f0321dd544b 1-21
+martian-28/pkg/setting/setting_data_proxy.go
+  h_e90f0321dd544b 1-36
+martian-6/crypto/elytron/src/main/java/org/keycloak/crypto/elytron/ElytronOCSPProvider.java
+  h_e90f0321dd544b 1-194
+martian-28/pkg/api/admin_provisioning_test.go
+  h_e90f0321dd544b 1-187
+martian-28/packages/grafana-data/src/types/trace.ts
+  h_e90f0321dd544b 1-54
+martian-28/pkg/setting/provider.go
+  h_e90f0321dd544b 1-183
+martian-38/app/models/badge_type.rb
+  h_e90f0321dd544b 1-23
+martian-6/common/src/main/java/org/keycloak/common/crypto/CryptoProvider.java
+  h_e90f0321dd544b 1-133
+martian-38/app/models/category_user.rb
+  h_e90f0321dd544b 1-89
+martian-38/app/models/twitter_user_info.rb
+  h_e90f0321dd544b 1-20
+martian-28/pkg/api/datasources_test.go
+  h_e90f0321dd544b 1-569
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_ka.properties
+  h_e90f0321dd544b 1-486
+martian-47/apps/web/public/static/locales/en/vital.json
+  h_e90f0321dd544b 1-13
+martian-21/server-spi/src/main/java/org/keycloak/models/AuthenticatedClientSessionModel.java
+  h_e90f0321dd544b 1-138
+martian-21/server-spi/src/main/java/org/keycloak/models/UserManager.java
+  h_e90f0321dd544b 1-60
+martian-38/app/assets/javascripts/discourse/lib/search-for-term.js.es6
+  h_e90f0321dd544b 1-89
+martian-38/app/controllers/user_badges_controller.rb
+  h_e90f0321dd544b 1-97
+martian-32/app/assets/stylesheets/common/base/modal.scss
+  h_e90f0321dd544b 1-291
+martian-41/packages/lib/getLabelValueMapFromResponses.ts
+  h_e90f0321dd544b 1-21
+martian-28/pkg/api/org_users_test.go
+  h_e90f0321dd544b 1-736
+martian-32/app/assets/stylesheets/mobile/buttons.scss
+  h_e90f0321dd544b 1-5
+martian-28/pkg/api/login.go
+  h_e90f0321dd544b 1-464
+martian-32/app/assets/stylesheets/desktop/queued-posts.scss
+  h_e90f0321dd544b 1-44
+martian-47/packages/features/auth/lib/hashPassword.ts
+  h_e90f0321dd544b 1-6
+martian-38/app/models/topic.rb
+  h_e90f0321dd544b 1-1041
+martian-38/app/models/discourse_version_check.rb
+  h_e90f0321dd544b 1-5
+martian-6/authz/client/src/main/java/org/keycloak/authorization/client/ClientAuthorizationContext.java
+  h_e90f0321dd544b 1-45
+martian-38/app/models/topic_embed.rb
+  h_e90f0321dd544b 1-178
+martian-38/app/models/digest_unsubscribe_key.rb
+  h_e90f0321dd544b 1-19
+martian-21/server-spi/src/main/java/org/keycloak/models/AuthenticationFlowModel.java
+  h_e90f0321dd544b 1-96
+martian-21/server-spi/src/main/java/org/keycloak/models/AuthenticationFlowBindings.java
+  h_e90f0321dd544b 1-28
+martian-6/crypto/fips1402/src/main/java/org/keycloak/crypto/fips/BCFIPSECDSACryptoProvider.java
+  h_e90f0321dd544b 1-95
+martian-21/server-spi/src/main/java/org/keycloak/models/ClientScopeProvider.java
+  h_e90f0321dd544b 1-76
+martian-38/app/models/draft.rb
+  h_e90f0321dd544b 1-71
+martian-28/pkg/api/featuremgmt.go
+  h_e90f0321dd544b 1-161
+martian-28/pkg/api/dtos/alerting.go
+  h_e90f0321dd544b 1-137
+martian-47/apps/web/pages/auth/saml-idp.tsx
+  h_e90f0321dd544b 1-23
+martian-41/packages/lib/tsconfig.test.json
+  h_e90f0321dd544b 1-13
+martian-28/pkg/api/plugin_proxy_test.go
+  h_e90f0321dd544b 1-36
+martian-21/server-spi/src/main/java/org/keycloak/models/SubjectCredentialManager.java
+  h_e90f0321dd544b 1-129
+martian-38/app/models/user_visit.rb
+  h_e90f0321dd544b 1-43
+martian-41/packages/trpc/server/routers/viewer/payments.tsx
+  h_e90f0321dd544b 1-125
+martian-6/authz/client/pom.xml
+  h_e90f0321dd544b 1-82
+martian-41/packages/lib/defaultAvatarImage.test.ts
+  h_e90f0321dd544b 1-65
+martian-38/app/models/category_list.rb
+  h_e90f0321dd544b 1-181
+martian-47/packages/ui/components/form/inputs/Input.tsx
+  h_e90f0321dd544b 1-199
+martian-38/app/models/about.rb
+  h_e90f0321dd544b 1-67
+martian-47/apps/web/playwright/managed-event-types.e2e.ts
+  h_e90f0321dd544b 1-93
+martian-28/packages/grafana-data/src/types/data.ts
+  h_e90f0321dd544b 1-239
+martian-38/app/controllers/exceptions_controller.rb
+  h_e90f0321dd544b 1-20
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_fi.properties
+  h_e90f0321dd544b 1-423
+martian-38/app/models/post_custom_field.rb
+  h_e90f0321dd544b 1-19
+martian-41/packages/lib/i18n.ts
+  h_e90f0321dd544b 1-18
+martian-41/apps/web/test/lib/team-event-types.test.ts
+  h_e90f0321dd544b 1-41
+martian-28/pkg/api/short_url.go
+  h_e90f0321dd544b 1-65
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_cs.properties
+  h_e90f0321dd544b 1-50
+martian-47/apps/web/components/auth/TwoFactor.tsx
+  h_e90f0321dd544b 1-50
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_de.properties
+  h_e90f0321dd544b 1-359
+martian-47/packages/lib/test/.env.test
+  h_e90f0321dd544b 1
+martian-28/packages/grafana-data/src/types/dataFrameTypes.ts
+  h_e90f0321dd544b 1-47
+martian-28/pkg/api/dtos/prefs.go
+  h_e90f0321dd544b 1-37
+martian-41/packages/types/ical.d.ts
+  h_e90f0321dd544b 1-268
+martian-38/app/models/category_featured_user.rb
+  h_e90f0321dd544b 1-62
+martian-38/app/models/topic_featured_users.rb
+  h_e90f0321dd544b 1-86
+martian-32/app/assets/stylesheets/desktop/login.scss
+  h_e90f0321dd544b 1-56
+martian-28/pkg/api/dtos/dashboard.go
+  h_e90f0321dd544b 1-73
+martian-21/server-spi/src/main/java/org/keycloak/models/ProtocolMapperContainerModel.java
+  h_e90f0321dd544b 1-44
+martian-38/app/models/topic_list.rb
+  h_e90f0321dd544b 1-94
+martian-28/pkg/api/frontend_logging.go
+  h_e90f0321dd544b 1-127
+martian-28/pkg/api/frontendsettings.go
+  h_e90f0321dd544b 1-635
+martian-28/pkg/api/dtos/annotations.go
+  h_e90f0321dd544b 1-47
+martian-38/app/controllers/uploads_controller.rb
+  h_e90f0321dd544b 1-80
+martian-38/app/models/google_user_info.rb
+  h_e90f0321dd544b 1-27
+martian-47/apps/web/playwright/reschedule.e2e.ts
+  h_e90f0321dd544b 1-272
+martian-28/pkg/services/anonymous/anonimpl/anonstore/database_test.go
+  h_e90f0321dd544b 1-79
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_cs.properties
+  h_e90f0321dd544b 1-501
+martian-41/packages/lib/PaymentService.ts
+  h_e90f0321dd544b 1-39
+martian-38/app/controllers/robots_txt_controller.rb
+  h_e90f0321dd544b 1-14
+martian-32/app/assets/stylesheets/common/base/rtl.scss
+  h_e90f0321dd544b 1-58
+martian-38/app/models/incoming_referer.rb
+  h_e90f0321dd544b 1-33
+martian-41/packages/lib/defaultEvents.ts
+  h_e90f0321dd544b 1-189
+martian-28/packages/grafana-data/src/types/transformations.ts
+  h_e90f0321dd544b 1-118
+martian-38/app/models/user_action_observer.rb
+  h_e90f0321dd544b 1-141
+martian-47/apps/web/playwright/apple-calendar.e2e.ts
+  h_e90f0321dd544b 1-35
+martian-28/pkg/api/quota_test.go
+  h_e90f0321dd544b 1-155
+martian-32/app/assets/stylesheets/mobile/header.scss
+  h_e90f0321dd544b 1-92
+martian-38/app/models/top_topic.rb
+  h_e90f0321dd544b 1-263
+martian-21/server-spi/src/main/java/org/keycloak/models/SingleUseObjectKeyModel.java
+  h_e90f0321dd544b 1-64
+martian-21/services/src/main/java/org/keycloak/organization/forms/login/freemarker/model/OrganizationAwareIdentityProviderBean.java
+  h_e90f0321dd544b 1-109
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_uk.properties
+  h_e90f0321dd544b 1-49
+martian-21/server-spi/src/main/java/org/keycloak/models/CibaConfig.java
+  h_e90f0321dd544b 1-163
+martian-21/server-spi/src/main/java/org/keycloak/models/KeycloakSession.java
+  h_e90f0321dd544b 1-257
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_no.properties
+  h_e90f0321dd544b 1-218
+martian-6/common/src/main/java/org/keycloak/common/crypto/CryptoConstants.java
+  h_e90f0321dd544b 1-27
+martian-0/misc/theme-verifier/src/test/java/org/keycloak/themeverifier/VerifyMessagePropertiesTest.java
+  h_e90f0321dd544b 1-44
+martian-41/packages/trpc/server/routers/viewer/sso.tsx
+  h_e90f0321dd544b 1-171
+martian-38/app/models/post_search_data.rb
+  h_e90f0321dd544b 1-19
+martian-21/server-spi/src/main/java/org/keycloak/models/AbstractConfig.java
+  h_e90f0321dd544b 1-42
+martian-28/pkg/api/user_token_test.go
+  h_e90f0321dd544b 1-373
+martian-32/app/assets/stylesheets/desktop/modal.scss
+  h_e90f0321dd544b 1-204
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_hr.properties
+  h_e90f0321dd544b 1-527
+martian-38/app/models/emoji.rb
+  h_e90f0321dd544b 1-121
+martian-38/app/models/oauth2_user_info.rb
+  h_e90f0321dd544b 1-22
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_hr.properties
+  h_e90f0321dd544b 1-388
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_fa.properties
+  h_e90f0321dd544b 1-45
+martian-41/packages/types/Event.d.ts
+  h_e90f0321dd544b 1-5
+martian-38/app/controllers/email_controller.rb
+  h_e90f0321dd544b 1-36
+martian-38/app/models/topic_view_item.rb
+  h_e90f0321dd544b 1-71
+martian-32/app/assets/stylesheets/common/base/header.scss
+  h_e90f0321dd544b 1-376
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_th.properties
+  h_e90f0321dd544b 1-382
+martian-6/crypto/default/src/main/java/org/keycloak/crypto/def/BCEcdhEsAlgorithmProvider.java
+  h_e90f0321dd544b 1-278
+martian-38/app/models/topic_allowed_user.rb
+  h_e90f0321dd544b 1-22
+martian-6/crypto/elytron/src/main/java/org/keycloak/crypto/elytron/ElytronCertificateUtilsProvider.java
+  h_e90f0321dd544b 1-342
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_sv.properties
+  h_e90f0321dd544b 1-217
+martian-47/apps/web/playwright/trial.e2e.ts
+  h_e90f0321dd544b 1-7
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_it.properties
+  h_e90f0321dd544b 1-43
+martian-28/packages/grafana-data/src/types/layout.ts
+  h_e90f0321dd544b 1-6
+martian-21/server-spi/src/main/java/org/keycloak/models/ModelValidationException.java
+  h_e90f0321dd544b 1-33
+martian-41/packages/lib/constants.ts
+  h_e90f0321dd544b 1-66
+martian-21/server-spi/src/main/java/org/keycloak/models/KeycloakTransactionManager.java
+  h_e90f0321dd544b 1-45
+martian-28/pkg/api/org_invite.go
+  h_e90f0321dd544b 1-368
+martian-38/app/assets/javascripts/discourse/lib/round.js.es6
+  h_e90f0321dd544b 1-5
+martian-28/packages/grafana-data/src/types/OptionsUIRegistryBuilder.ts
+  h_e90f0321dd544b 1-102
+martian-47/apps/web/playwright/booking-seats.e2e.ts
+  h_e90f0321dd544b 1-585
+martian-38/app/models/topic_notifier.rb
+  h_e90f0321dd544b 1-42
+martian-47/apps/web/playwright/integrations-stripe.e2e.ts
+  h_e90f0321dd544b 1-149
+martian-47/apps/web/playwright/workflow.e2e.ts
+  h_e90f0321dd544b 1-80
+martian-38/app/models/topic_status_update.rb
+  h_e90f0321dd544b 1-103
+martian-41/packages/lib/isDurationLimits.ts
+  h_e90f0321dd544b 1-12
+martian-28/packages/grafana-data/src/types/accesscontrol.ts
+  h_e90f0321dd544b 1-12
+martian-38/app/assets/javascripts/discourse/lib/discourse-location.js.es6
+  h_e90f0321dd544b 1-258
+martian-21/server-spi/src/main/java/org/keycloak/models/IdentityProviderStorageProvider.java
+  h_e90f0321dd544b 1-327
+martian-28/pkg/api/dashboard_snapshot_test.go
+  h_e90f0321dd544b 1-410
+martian-38/app/models/api_key.rb
+  h_e90f0321dd544b 1-40
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_ar.properties
+  h_e90f0321dd544b 1-500
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_ca.properties
+  h_e90f0321dd544b 1-359
+martian-21/server-spi/src/main/java/org/keycloak/models/ParConfig.java
+  h_e90f0321dd544b 1-70
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_ru.properties
+  h_e90f0321dd544b 1-241
+martian-21/server-spi/src/main/java/org/keycloak/models/ProtocolMapperModel.java
+  h_e90f0321dd544b 1-122
+martian-41/packages/lib/Sendgrid.ts
+  h_e90f0321dd544b 1-129
+martian-47/apps/web/playwright/hash-my-url.e2e.ts
+  h_e90f0321dd544b 1-55
+martian-28/pkg/api/user_token.go
+  h_e90f0321dd544b 1-285
+martian-38/app/models/post_stat.rb
+  h_e90f0321dd544b 1-3
+martian-28/pkg/api/folder_permission_test.go
+  h_e90f0321dd544b 1-158
+martian-38/app/controllers/session_controller.rb
+  h_e90f0321dd544b 1-266
+martian-32/app/assets/stylesheets/mobile_rtl.scss
+  h_e90f0321dd544b 1-2
+martian-47/packages/prisma/zod-utils.ts
+  h_e90f0321dd544b 1-636
+martian-32/app/assets/stylesheets/desktop/user-card.scss
+  h_e90f0321dd544b 1-249
+martian-38/app/models/user_history.rb
+  h_e90f0321dd544b 1-153
+martian-28/pkg/setting/setting_azure.go
+  h_e90f0321dd544b 1-67
+martian-28/packages/grafana-data/src/types/explore.ts
+  h_e90f0321dd544b 1-72
+martian-9/src/sentry/consumers/validate_schema.py
+  h_e90f0321dd544b 1-73
+martian-21/server-spi/src/main/java/org/keycloak/models/ModelDuplicateException.java
+  h_e90f0321dd544b 1-46
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_de.properties
+  h_e90f0321dd544b 1-483
+martian-38/app/controllers/about_controller.rb
+  h_e90f0321dd544b 1-8
+martian-32/app/assets/stylesheets/common/base/alert.scss
+  h_e90f0321dd544b 1-44
+martian-38/app/assets/javascripts/discourse/lib/formatter.js.es6
+  h_e90f0321dd544b 1-269
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_th.properties
+  h_e90f0321dd544b 1-496
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_nl.properties
+  h_e90f0321dd544b 1-357
+martian-21/server-spi/src/main/java/org/keycloak/models/UserSessionModel.java
+  h_e90f0321dd544b 1-159
+martian-41/packages/trpc/server/routers/viewer/webhook.tsx
+  h_e90f0321dd544b 1-271
+martian-38/app/models/post_mover.rb
+  h_e90f0321dd544b 1-152
+martian-32/app/assets/stylesheets/common/base/magnific-popup.scss
+  h_e90f0321dd544b 1-702
+martian-38/app/models/user_stat.rb
+  h_e90f0321dd544b 1-105
+martian-38/app/controllers/post_actions_controller.rb
+  h_e90f0321dd544b 1-90
+martian-47/apps/web/playwright/availability.e2e.ts
+  h_e90f0321dd544b 1-71
+martian-41/packages/lib/getSafeRedirectUrl.ts
+  h_e90f0321dd544b 1-22
+martian-38/app/assets/javascripts/discourse/lib/ajax-error.js.es6
+  h_e90f0321dd544b 1-58
+martian-41/packages/lib/default-cookies.ts
+  h_e90f0321dd544b 1-74
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_fr.properties
+  h_e90f0321dd544b 1-40
+martian-21/server-spi/src/main/java/org/keycloak/models/OrganizationModel.java
+  h_e90f0321dd544b 1-82
+martian-28/pkg/api/org_invite_test.go
+  h_e90f0321dd544b 1-77
+martian-21/server-spi/src/main/java/org/keycloak/models/ClientScopeModel.java
+  h_e90f0321dd544b 1-123
+martian-28/pkg/api/org.go
+  h_e90f0321dd544b 1-479
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_pt_BR.properties
+  h_e90f0321dd544b 1-394
+martian-41/packages/lib/next-seo.config.ts
+  h_e90f0321dd544b 1-41
+martian-21/server-spi/src/main/java/org/keycloak/models/IdentityProviderMapperSyncMode.java
+  h_e90f0321dd544b 1-5
+martian-21/services/src/main/java/org/keycloak/organization/forms/login/freemarker/model/OrganizationAwareAuthenticationContextBean.java
+  h_e90f0321dd544b 1-59
+martian-41/packages/lib/isRecurringEvent.ts
+  h_e90f0321dd544b 1-16
+martian-28/pkg/api/org_users.go
+  h_e90f0321dd544b 1-628
+martian-6/crypto/fips1402/src/main/java/org/keycloak/crypto/fips/BCFIPSCertificateUtilsProvider.java
+  h_e90f0321dd544b 1-350
+martian-41/packages/types/SVGComponent.d.ts
+  h_e90f0321dd544b 1
+martian-28/pkg/api/plugin_resource_test.go
+  h_e90f0321dd544b 1-133
+martian-32/app/assets/stylesheets/desktop/compose.scss
+  h_e90f0321dd544b 1-439
+martian-21/server-spi/src/main/java/org/keycloak/models/ClientProvider.java
+  h_e90f0321dd544b 1-147
+martian-28/pkg/api/playlist.go
+  h_e90f0321dd544b 1-471
+martian-47/apps/web/pages/api/auth/two-factor/totp/disable.ts
+  h_e90f0321dd544b 1-91
+martian-32/app/assets/stylesheets/common/base/history.scss
+  h_e90f0321dd544b 1-89
+martian-19/pkg/services/authz/rbac.go
+  h_e90f0321dd544b 1-235
+martian-32/app/assets/stylesheets/mobile/topic-post.scss
+  h_e90f0321dd544b 1-528
+martian-0/js/apps/admin-ui/maven-resources-community/theme/keycloak.v2/admin/messages/messages_pl.properties
+  h_e90f0321dd544b 1-3332
+martian-6/crypto/fips1402/src/main/java/org/keycloak/crypto/fips/Fips1402StrictCryptoProvider.java
+  h_e90f0321dd544b 1-23
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_zh_TW.properties
+  h_e90f0321dd544b 1-508
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_ca.properties
+  h_e90f0321dd544b 1-482
+martian-38/app/assets/javascripts/discourse/lib/eyeline.js.es6
+  h_e90f0321dd544b 1-72
+martian-32/app/assets/stylesheets/common/base/topic.scss
+  h_e90f0321dd544b 1-79
+martian-38/app/models/post_timing.rb
+  h_e90f0321dd544b 1-156
+martian-38/app/controllers/users_controller.rb
+  h_e90f0321dd544b 1-632
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_it.properties
+  h_e90f0321dd544b 1-339
+martian-47/packages/prisma/.env
+  h_e90f0321dd544b 1
+martian-9/src/sentry/consumers/dlq.py
+  h_e90f0321dd544b 1-173
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_pl.properties
+  h_e90f0321dd544b 1-43
+martian-41/packages/types/tsconfig.json
+  h_e90f0321dd544b 1-5
+martian-38/app/models/user_action.rb
+  h_e90f0321dd544b 1-363
+martian-28/pkg/api/admin_provisioning.go
+  h_e90f0321dd544b 1-109
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_hu.properties
+  h_e90f0321dd544b 1-496
+martian-47/packages/ui/components/form/inputs/inputs.stories.mdx
+  h_e90f0321dd544b 1-102
+martian-32/app/assets/stylesheets/common/components/badges.css.scss
+  h_e90f0321dd544b 1-301
+martian-38/app/controllers/site_customizations_controller.rb
+  h_e90f0321dd544b 1-35
+martian-28/pkg/api/preferences_test.go
+  h_e90f0321dd544b 1-204
+martian-47/apps/web/pages/api/auth/two-factor/totp/setup.ts
+  h_e90f0321dd544b 1-74
+martian-9/src/sentry/spans/consumers/process/factory.py
+  h_e90f0321dd544b 1-176
+martian-41/packages/types/package.json
+  h_e90f0321dd544b 1-6
+martian-38/app/assets/javascripts/discourse/lib/html.js
+  h_e90f0321dd544b 1-28
+martian-6/crypto/fips1402/src/main/java/org/keycloak/crypto/fips/FIPSRsaKeyEncryptionJWEAlgorithmProvider.java
+  h_e90f0321dd544b 1-58
+martian-32/app/assets/stylesheets/common/base/pagedown.scss
+  h_e90f0321dd544b 1-139
+martian-21/server-spi/src/main/java/org/keycloak/models/AbstractKeycloakTransaction.java
+  h_e90f0321dd544b 1-90
+martian-38/app/assets/javascripts/discourse/lib/is-element-in-viewport.js.es6
+  h_e90f0321dd544b 1-11
+martian-38/app/assets/javascripts/discourse/lib/after-transition.js.es6
+  h_e90f0321dd544b 1-29
+martian-41/apps/web/test/lib/getSchedule.test.ts
+  h_e90f0321dd544b 1-1376
+martian-0/misc/theme-verifier/pom.xml
+  h_e90f0321dd544b 1-101
+martian-47/packages/features/auth/lib/ErrorCode.ts
+  h_e90f0321dd544b 1-17
+martian-47/apps/web/components/settings/EnableTwoFactorModal.tsx
+  h_e90f0321dd544b 1-228
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_tr.properties
+  h_e90f0321dd544b 1-505
+martian-28/pkg/setting/date_formats_test.go
+  h_e90f0321dd544b 1-35
+martian-41/packages/lib/deriveAppDictKeyFromType.ts
+  h_e90f0321dd544b 1-47
+martian-28/packages/grafana-data/src/types/annotations.ts
+  h_e90f0321dd544b 1-114
+martian-32/app/assets/stylesheets/common/base/mobile.scss
+  h_e90f0321dd544b 1
+martian-47/packages/ui/components/form/inputs/HintOrErrors.tsx
+  h_e90f0321dd544b 1-107
+martian-28/pkg/api/http_server.go
+  h_e90f0321dd544b 1-846
+martian-38/app/models/muted_user.rb
+  h_e90f0321dd544b 1-4
+martian-47/apps/web/pages/auth/signin.tsx
+  h_e90f0321dd544b 1-49
+martian-21/server-spi/src/main/java/org/keycloak/models/KeycloakContext.java
+  h_e90f0321dd544b 1-98
+martian-41/packages/lib/findDurationType.ts
+  h_e90f0321dd544b 1-8
+martian-21/server-spi/src/main/java/org/keycloak/models/IdentityProviderSyncMode.java
+  h_e90f0321dd544b 1-5
+martian-41/packages/lib/CloseCom.ts
+  h_e90f0321dd544b 1-460
+martian-38/app/assets/javascripts/discourse/lib/decimal-adjust.js.es6
+  h_e90f0321dd544b 1-16
+martian-28/packages/grafana-data/src/types/theme.ts
+  h_e90f0321dd544b 1-245
+martian-28/pkg/api/swagger.go
+  h_e90f0321dd544b 1-34
+martian-32/app/assets/stylesheets/mobile/topic-list.scss
+  h_e90f0321dd544b 1-357
+martian-38/app/models/notification.rb
+  h_e90f0321dd544b 1-165
+martian-38/app/models/facebook_user_info.rb
+  h_e90f0321dd544b 1-26
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_pt_BR.properties
+  h_e90f0321dd544b 1-43
+martian-32/app/assets/stylesheets/common/base/user.scss
+  h_e90f0321dd544b 1-133
+README.md
+  h_e90f0321dd544b 2-7
+martian-47/packages/features/auth/lib/next-auth-custom-adapter.ts
+  h_e90f0321dd544b 1-100
+martian-0/themes/src/main/resources/theme/base/admin/messages/messages_en.properties
+  h_e90f0321dd544b 1-69
+martian-38/app/models/email_token.rb
+  h_e90f0321dd544b 1-87
+martian-28/pkg/setting/setting_secure_socks_proxy.go
+  h_e90f0321dd544b 1-46
+martian-41/apps/web/test/lib/getWorkingHours.test.ts
+  h_e90f0321dd544b 1-154
+martian-28/pkg/setting/setting_unified_alerting_test.go
+  h_e90f0321dd544b 1-300
+martian-47/packages/ui/components/form/inputs/input.test.tsx
+  h_e90f0321dd544b 1-182
+martian-41/packages/lib/package.json
+  h_e90f0321dd544b 1-36
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_lt.properties
+  h_e90f0321dd544b 1-24
+martian-21/server-spi/src/main/java/org/keycloak/models/ClientInitialAccessModel.java
+  h_e90f0321dd544b 1-74
+martian-28/pkg/api/index.go
+  h_e90f0321dd544b 1-263
+martian-38/app/models/user_custom_field.rb
+  h_e90f0321dd544b 1-19
+martian-38/app/models/rtl.rb
+  h_e90f0321dd544b 1-29
+martian-47/apps/web/playwright/login.e2e.ts
+  h_e90f0321dd544b 1-83
+martian-32/app/assets/stylesheets/common/base/notification-options.scss
+  h_e90f0321dd544b 1-7
+martian-38/app/controllers/permalinks_controller.rb
+  h_e90f0321dd544b 1-20
+martian-0/misc/theme-verifier/src/test/resources/duplicate_keys.properties
+  h_e90f0321dd544b 1-18
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_it.properties
+  h_e90f0321dd544b 1-360
+martian-21/model/infinispan/src/main/java/org/keycloak/models/cache/infinispan/idp/CachedIdentityProvider.java
+  h_e90f0321dd544b 1-44
+martian-38/app/controllers/application_controller.rb
+  h_e90f0321dd544b 1-473
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_sv.properties
+  h_e90f0321dd544b 1-149
+martian-9/CLAUDE.md
+  h_e90f0321dd544b 1-638
+martian-41/packages/lib/convertToNewDurationType.ts
+  h_e90f0321dd544b 1-27
+martian-41/packages/lib/CalEventParser.ts
+  h_e90f0321dd544b 1-238
+martian-47/packages/prisma/seed-app-store.ts
+  h_e90f0321dd544b 1-391
+martian-41/packages/trpc/server/routers/viewer/eventTypes.ts
+  h_e90f0321dd544b 1-994
+martian-41/packages/lib/getPaymentAppData.ts
+  h_e90f0321dd544b 1-46
+martian-41/packages/lib/index.ts
+  h_e90f0321dd544b 1-6
+martian-28/pkg/api/user_test.go
+  h_e90f0321dd544b 1-448
+martian-38/app/models/application_request.rb
+  h_e90f0321dd544b 1-132
+martian-38/app/assets/javascripts/discourse/lib/avatar-template.js.es6
+  h_e90f0321dd544b 1-34
+martian-9/src/sentry/spans/consumers/process/flusher.py
+  h_e90f0321dd544b 1-267
+martian-38/app/models/top_menu_item.rb
+  h_e90f0321dd544b 1-58
+martian-6/common/src/main/java/org/keycloak/common/crypto/UserIdentityExtractor.java
+  h_e90f0321dd544b 1-45
+martian-47/packages/prisma/index.ts
+  h_e90f0321dd544b 1-65
+martian-38/app/models/directory_item.rb
+  h_e90f0321dd544b 1-74
+martian-28/pkg/api/plugins_test.go
+  h_e90f0321dd544b 1-738
+martian-6/authz/client/src/main/java/org/keycloak/authorization/client/Configuration.java
+  h_e90f0321dd544b 1-83
+martian-6/common/src/main/java/org/keycloak/common/crypto/CryptoIntegration.java
+  h_e90f0321dd544b 1-94
+martian-28/packages/grafana-data/src/types/vector.ts
+  h_e90f0321dd544b 1-134
+martian-32/app/assets/stylesheets/mobile/login.scss
+  h_e90f0321dd544b 1-75
+martian-41/packages/lib/slugify.ts
+  h_e90f0321dd544b 1-5
+martian-41/packages/types/utils.d.ts
+  h_e90f0321dd544b 1-17
+martian-38/app/models/user_profile.rb
+  h_e90f0321dd544b 1-119
+martian-32/app/assets/stylesheets/common/base/combobox.scss
+  h_e90f0321dd544b 1-74
+martian-32/app/assets/stylesheets/common/components/buttons.css.scss
+  h_e90f0321dd544b 1-184
+martian-38/app/models/category.rb
+  h_e90f0321dd544b 1-464
+martian-47/apps/web/playwright/saml.e2e.ts
+  h_e90f0321dd544b 1-17
+martian-38/app/assets/javascripts/discourse/lib/markdown.js
+  h_e90f0321dd544b 1-320
+martian-41/packages/types/environment.d.ts
+  h_e90f0321dd544b 1-60
+martian-28/pkg/setting/setting_session_test.go
+  h_e90f0321dd544b 1-31
+martian-41/packages/types/Calendar.d.ts
+  h_e90f0321dd544b 1-234
+martian-21/server-spi/src/main/java/org/keycloak/models/UserModel.java
+  h_e90f0321dd544b 1-243
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_fa.properties
+  h_e90f0321dd544b 1-491
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_da.properties
+  h_e90f0321dd544b 1-42
+martian-32/app/assets/stylesheets/desktop/upload.scss
+  h_e90f0321dd544b 1-42
+martian-47/packages/features/auth/lib/ensureSession.ts
+  h_e90f0321dd544b 1-13
+martian-21/server-spi/src/main/java/org/keycloak/models/SingleUseObjectProvider.java
+  h_e90f0321dd544b 1-85
+martian-28/pkg/api/dashboard_snapshot.go
+  h_e90f0321dd544b 1-523
+martian-9/tests/sentry/spans/consumers/process/test_flusher.py
+  h_e90f0321dd544b 1-83
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_fa.properties
+  h_e90f0321dd544b 1-382
+martian-38/app/models/search_observer.rb
+  h_e90f0321dd544b 1-133
+martian-47/packages/features/auth/lib/verifyPassword.ts
+  h_e90f0321dd544b 1-6
+martian-32/app/assets/stylesheets/common/base/user-badges.scss
+  h_e90f0321dd544b 1-165
+martian-32/app/assets/stylesheets/common/base/compose.scss
+  h_e90f0321dd544b 1-151
+martian-28/packages/grafana-data/src/types/logs.ts
+  h_e90f0321dd544b 1-338
+martian-28/pkg/api/dtos/playlist.go
+  h_e90f0321dd544b 1-24
+martian-28/pkg/api/dashboard.go
+  h_e90f0321dd544b 1-1238
+martian-0/js/apps/admin-ui/maven-resources-community/theme/keycloak.v2/admin/messages/messages_pt_BR.properties
+  h_e90f0321dd544b 1-525
+martian-28/packages/grafana-runtime/src/config.ts
+  h_e90f0321dd544b 1-266
+martian-38/app/models/incoming_links_report.rb
+  h_e90f0321dd544b 1-118
+martian-38/app/controllers/forums_controller.rb
+  h_e90f0321dd544b 1-23
+martian-6/crypto/elytron/src/main/java/org/keycloak/crypto/elytron/ElytronPEMUtilsProvider.java
+  h_e90f0321dd544b 1-70
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_ka.properties
+  h_e90f0321dd544b 1-359
+martian-41/packages/lib/isCalcom.ts
+  h_e90f0321dd544b 1-2
+martian-32/app/assets/stylesheets/mobile/modal.scss
+  h_e90f0321dd544b 1-180
+martian-32/app/assets/stylesheets/admin.scss
+  h_e90f0321dd544b 1
+martian-21/server-spi/src/main/java/org/keycloak/models/AuthenticatorConfigModel.java
+  h_e90f0321dd544b 1-74
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_tr.properties
+  h_e90f0321dd544b 1-43
+martian-32/app/assets/stylesheets/desktop/topic.scss
+  h_e90f0321dd544b 1-267
+martian-28/pkg/api/dashboard_permission.go
+  h_e90f0321dd544b 1-364
+martian-38/app/models/category_featured_topic.rb
+  h_e90f0321dd544b 1-67
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_lv.properties
+  h_e90f0321dd544b 1-235
+martian-21/model/infinispan/src/main/java/org/keycloak/models/cache/infinispan/idp/IdentityProviderListQuery.java
+  h_e90f0321dd544b 1-55
+martian-28/packages/grafana-data/src/types/geometry.ts
+  h_e90f0321dd544b 1-14
+martian-38/app/models/post_analyzer.rb
+  h_e90f0321dd544b 1-119
+martian-28/packages/grafana-data/src/types/displayValue.ts
+  h_e90f0321dd544b 1-43
+martian-19/pkg/services/authz/zanzana.go
+  h_e90f0321dd544b 1-242
+martian-28/pkg/setting/setting_test.go
+  h_e90f0321dd544b 1-908
+martian-38/app/models/queued_post.rb
+  h_e90f0321dd544b 1-110
+martian-9/src/sentry/consumers/__init__.py
+  h_e90f0321dd544b 1-642
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_ca.properties
+  h_e90f0321dd544b 1-66
+martian-41/packages/types/VideoApiAdapter.d.ts
+  h_e90f0321dd544b 1-30
+martian-38/app/controllers/clicks_controller.rb
+  h_e90f0321dd544b 1-31
+martian-21/server-spi/src/main/java/org/keycloak/models/SingleUseObjectValueModel.java
+  h_e90f0321dd544b 1-38
+martian-38/app/models/permalink.rb
+  h_e90f0321dd544b 1-111
+martian-32/app/assets/stylesheets/common.scss
+  h_e90f0321dd544b 1-13
+martian-38/app/controllers/search_controller.rb
+  h_e90f0321dd544b 1-66
+martian-47/packages/ui/components/form/inputs/TextField.tsx
+  h_e90f0321dd544b 1-175
+martian-28/pkg/api/fakes.go
+  h_e90f0321dd544b 1-53
+martian-47/packages/features/auth/lib/getSession.ts
+  h_e90f0321dd544b 1-10
+martian-28/packages/grafana-data/src/types/datasource.ts
+  h_e90f0321dd544b 1-740
+martian-21/server-spi/src/main/java/org/keycloak/models/ClientModel.java
+  h_e90f0321dd544b 1-301
+martian-28/pkg/api/folder_bench_test.go
+  h_e90f0321dd544b 1-566
+martian-41/packages/lib/isMac.ts
+  h_e90f0321dd544b 1
+martian-28/pkg/api/admin_test.go
+  h_e90f0321dd544b 1-173
+martian-38/app/models/discourse_single_sign_on.rb
+  h_e90f0321dd544b 1-139
+martian-38/app/models/topic_allowed_group.rb
+  h_e90f0321dd544b 1-20
+martian-38/app/models/user_avatar.rb
+  h_e90f0321dd544b 1-105
+martian-21/server-spi/src/main/java/org/keycloak/models/KeycloakSessionTask.java
+  h_e90f0321dd544b 1-29
+martian-38/app/models/category_group.rb
+  h_e90f0321dd544b 1-21
+martian-28/pkg/api/dtos/plugins.go
+  h_e90f0321dd544b 1-68
+martian-0/js/apps/admin-ui/maven-resources-community/theme/keycloak.v2/admin/messages/messages_ja.properties
+  h_e90f0321dd544b 1-1114
+martian-28/pkg/setting/setting_grafana_javascript_agent.go
+  h_e90f0321dd544b 1-26
+martian-41/packages/lib/isPrismaObj.ts
+  h_e90f0321dd544b 1-11
+martian-28/pkg/setting/setting_feature_toggles.go
+  h_e90f0321dd544b 1-47
+martian-6/crypto/default/src/main/java/org/keycloak/crypto/def/BCECDSACryptoProvider.java
+  h_e90f0321dd544b 1-90
+martian-38/app/models/site_customization.rb
+  h_e90f0321dd544b 1-199
+martian-21/server-spi/src/main/java/org/keycloak/models/RoleProvider.java
+  h_e90f0321dd544b 1-141
+martian-38/app/models/user_field.rb
+  h_e90f0321dd544b 1-24
+martian-41/packages/lib/rateLimit.ts
+  h_e90f0321dd544b 1-27
+martian-28/pkg/api/admin_encryption.go
+  h_e90f0321dd544b 1-100
+martian-28/packages/grafana-data/src/types/pluginSignature.ts
+  h_e90f0321dd544b 1-11
+martian-47/packages/features/auth/lib/signJwt.ts
+  h_e90f0321dd544b 1-17
+martian-21/server-spi/src/main/java/org/keycloak/models/RequiredActionProviderModel.java
+  h_e90f0321dd544b 1-117
+martian-6/crypto/default/src/main/java/org/keycloak/crypto/def/DefaultRsaKeyEncryption256JWEAlgorithmProvider.java
+  h_e90f0321dd544b 1-27
+martian-21/server-spi/src/main/java/org/keycloak/models/KeycloakUriInfo.java
+  h_e90f0321dd544b 1-193
+martian-21/server-spi/src/main/java/org/keycloak/models/GroupProvider.java
+  h_e90f0321dd544b 1-264
+martian-28/pkg/api/dashboard_test.go
+  h_e90f0321dd544b 1-1082
+martian-21/server-spi/src/main/java/org/keycloak/models/KeyManager.java
+  h_e90f0321dd544b 1-160
+martian-38/app/assets/javascripts/discourse/lib/highlight.js
+  h_e90f0321dd544b 1-109
+martian-47/apps/web/pages/auth/new.tsx
+  h_e90f0321dd544b 1-6
+martian-38/app/models/post_revision.rb
+  h_e90f0321dd544b 1-56
+martian-21/server-spi/src/main/java/org/keycloak/models/IdentityProviderModel.java
+  h_e90f0321dd544b 1-361
+martian-28/pkg/api/render.go
+  h_e90f0321dd544b 1-93
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_hr.properties
+  h_e90f0321dd544b 1-67
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_fi.properties
+  h_e90f0321dd544b 1-41
+martian-41/packages/lib/CalendarService.ts
+  h_e90f0321dd544b 1-640
+martian-41/apps/web/test/lib/getAggregateWorkingHours.test.ts
+  h_e90f0321dd544b 1-120
+martian-38/app/models/badge_grouping.rb
+  h_e90f0321dd544b 1-30
+martian-41/packages/types/schedule.d.ts
+  h_e90f0321dd544b 1-20
+martian-38/app/controllers/list_controller.rb
+  h_e90f0321dd544b 1-328
+martian-38/app/models/badge.rb
+  h_e90f0321dd544b 1-349
+martian-21/services/src/main/java/org/keycloak/organization/forms/login/freemarker/model/OrganizationAwareRealmBean.java
+  h_e90f0321dd544b 1-33
+martian-28/packages/grafana-runtime/src/index.ts
+  h_e90f0321dd544b 1-57
+martian-6/common/src/main/java/org/keycloak/common/crypto/ECDSACryptoProvider.java
+  h_e90f0321dd544b 1-14
+martian-21/server-spi/src/main/java/org/keycloak/models/ThemeManager.java
+  h_e90f0321dd544b 1-41
+martian-28/pkg/services/anonymous/anonimpl/impl.go
+  h_e90f0321dd544b 1-180
+martian-32/app/assets/stylesheets/common/base/upload.scss
+  h_e90f0321dd544b 1-4
+martian-38/app/models/category_search_data.rb
+  h_e90f0321dd544b 1-19
+martian-47/apps/web/playwright/onboarding.e2e.ts
+  h_e90f0321dd544b 1-83
+martian-28/pkg/api/user.go
+  h_e90f0321dd544b 1-753
+martian-32/app/assets/stylesheets/common/base/topic-post.scss
+  h_e90f0321dd544b 1-317
+martian-6/crypto/elytron/src/main/java/org/keycloak/crypto/elytron/ElytronEcdhEsAlgorithmProvider.java
+  h_e90f0321dd544b 1-252
+martian-38/app/assets/javascripts/discourse/lib/screen-track.js.es6
+  h_e90f0321dd544b 1-194
+martian-28/pkg/api/password.go
+  h_e90f0321dd544b 1-106
+martian-38/app/models/site_text_type.rb
+  h_e90f0321dd544b 1-27
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_ja.properties
+  h_e90f0321dd544b 1-314
+martian-41/packages/lib/random.ts
+  h_e90f0321dd544b 1-15
+martian-21/server-spi/src/main/java/org/keycloak/models/DefaultActionTokenKey.java
+  h_e90f0321dd544b 1-89
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c9ef7f2d5fa568706485e7bb0d87459d48e325bc",
+  "prompts": {},
+  "humans": {
+    "h_e90f0321dd544b": {
+      "author": "001005HS <99410048+001005HS@users.noreply.github.com>"
+    }
+  }
+}
