@@ -1,0 +1,36 @@
+martian-6/authz/client/pom.xml
+  h_e90f0321dd544b 61-71
+martian-6/authz/client/src/main/java/org/keycloak/authorization/client/AuthzClient.java
+  h_e90f0321dd544b 33,95
+martian-6/authz/client/src/main/java/org/keycloak/authorization/client/util/crypto/ASN1Decoder.java
+  h_e90f0321dd544b 1-203
+martian-6/authz/client/src/main/java/org/keycloak/authorization/client/util/crypto/ASN1Encoder.java
+  h_e90f0321dd544b 1-101
+martian-6/authz/client/src/main/java/org/keycloak/authorization/client/util/crypto/AuthzClientCryptoProvider.java
+  h_e90f0321dd544b 1-226
+martian-6/authz/client/src/main/resources/META-INF/services/org.keycloak.common.crypto.CryptoProvider
+  h_e90f0321dd544b 1-20
+martian-6/authz/client/src/test/java/org/keycloak/authorization/client/test/ECDSAAlgorithmTest.java
+  h_e90f0321dd544b 1-74
+martian-6/common/src/main/java/org/keycloak/common/crypto/CryptoIntegration.java
+  h_e90f0321dd544b 6,57,64-70
+martian-6/common/src/main/java/org/keycloak/common/crypto/CryptoProvider.java
+  h_e90f0321dd544b 39-45,94
+martian-6/crypto/default/src/main/java/org/keycloak/crypto/def/DefaultCryptoProvider.java
+  h_e90f0321dd544b 82-85,186
+martian-6/crypto/elytron/src/main/java/org/keycloak/crypto/elytron/WildFlyElytronProvider.java
+  h_e90f0321dd544b 75-79
+martian-6/crypto/fips1402/src/main/java/org/keycloak/crypto/fips/FIPS1402Provider.java
+  h_e90f0321dd544b 113-117,203,208,230,234
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "63eadf5708aad83cb1202e7a4507f1d3e69da400",
+  "prompts": {},
+  "humans": {
+    "h_e90f0321dd544b": {
+      "author": "001005HS <99410048+001005HS@users.noreply.github.com>"
+    }
+  }
+}
