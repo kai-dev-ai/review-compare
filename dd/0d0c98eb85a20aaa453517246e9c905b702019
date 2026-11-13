@@ -1,0 +1,20 @@
+martian-41/apps/web/test/lib/getSchedule.test.ts
+  h_e90f0321dd544b 783-800
+martian-41/packages/lib/slots.ts
+  h_e90f0321dd544b 211-226
+martian-41/packages/trpc/server/routers/viewer/slots.ts
+  h_e90f0321dd544b 22,79-80,82,87-91,93,102-152,411-415,439-441,456,492,500,517,579-580,585
+martian-41/packages/types/schedule.d.ts
+  h_e90f0321dd544b 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "dd0d0c98eb85a20aaa453517246e9c905b702019",
+  "prompts": {},
+  "humans": {
+    "h_e90f0321dd544b": {
+      "author": "001005HS <99410048+001005HS@users.noreply.github.com>"
+    }
+  }
+}
