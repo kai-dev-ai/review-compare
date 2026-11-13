@@ -1,0 +1,20 @@
+martian-21/model/infinispan/src/main/java/org/keycloak/models/cache/infinispan/idp/InfinispanIdentityProviderStorageProvider.java
+  h_e90f0321dd544b 21,40-41,47,77-80,84,93,100,103,111,213-256,382-419
+martian-21/server-spi/src/main/java/org/keycloak/models/IdentityProviderStorageProvider.java
+  h_e90f0321dd544b 254
+martian-21/services/src/main/java/org/keycloak/organization/forms/login/freemarker/model/OrganizationAwareIdentityProviderBean.java
+  h_e90f0321dd544b 75,80
+martian-21/testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/organization/cache/OrganizationCacheTest.java
+  h_e90f0321dd544b 23,36,368-535
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "84b8ddaeb8aacc8659f4e0199d5a59f354995364",
+  "prompts": {},
+  "humans": {
+    "h_e90f0321dd544b": {
+      "author": "001005HS <99410048+001005HS@users.noreply.github.com>"
+    }
+  }
+}
