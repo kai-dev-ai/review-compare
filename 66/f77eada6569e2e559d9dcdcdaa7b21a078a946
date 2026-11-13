@@ -1,0 +1,44 @@
+martian-47/apps/web/components/auth/BackupCode.tsx
+  h_e90f0321dd544b 1-29
+martian-47/apps/web/components/auth/TwoFactor.tsx
+  h_e90f0321dd544b 8,43
+martian-47/apps/web/components/settings/DisableTwoFactorModal.tsx
+  h_e90f0321dd544b 8,24,38,43-50,58,60-61,69,71,73-76,95,103-107,113-121
+martian-47/apps/web/components/settings/EnableTwoFactorModal.tsx
+  h_e90f0321dd544b 8,31,58,64-65,71-76,92-100,135,163-164,167-170,174,200-208,222-231,261-289
+martian-47/apps/web/components/settings/TwoFactorAuthAPI.ts
+  h_e90f0321dd544b 22,25
+martian-47/apps/web/pages/api/auth/two-factor/totp/disable.ts
+  h_e90f0321dd544b 46-69,107
+martian-47/apps/web/pages/api/auth/two-factor/totp/setup.ts
+  h_e90f0321dd544b 1,60-62,68,78
+martian-47/apps/web/pages/auth/login.tsx
+  h_e90f0321dd544b 24,32,43,70,104-132,157-158,221
+martian-47/apps/web/playwright/login.2fa.e2e.ts
+  h_e90f0321dd544b 12-13,50-51,110-126
+martian-47/apps/web/public/static/locales/en/common.json
+  h_e90f0321dd544b 2013-2019
+martian-47/packages/features/auth/lib/ErrorCode.ts
+  h_e90f0321dd544b 11-12
+martian-47/packages/features/auth/lib/next-auth-options.ts
+  h_e90f0321dd544b 14,65,89,131-157
+martian-47/packages/lib/test/builder.ts
+  h_e90f0321dd544b 192
+martian-47/packages/prisma/migrations/20230804153419_add_backup_codes/migration.sql
+  h_e90f0321dd544b 1-2
+martian-47/packages/prisma/schema.prisma
+  h_e90f0321dd544b 205
+martian-47/packages/ui/components/form/inputs/Input.tsx
+  h_e90f0321dd544b 47-51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "66f77eada6569e2e559d9dcdcdaa7b21a078a946",
+  "prompts": {},
+  "humans": {
+    "h_e90f0321dd544b": {
+      "author": "001005HS <99410048+001005HS@users.noreply.github.com>"
+    }
+  }
+}
