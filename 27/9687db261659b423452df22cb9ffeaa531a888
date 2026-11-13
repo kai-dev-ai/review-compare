@@ -1,0 +1,18 @@
+martian-38/app/assets/javascripts/discourse/lib/utilities.js
+  h_e90f0321dd544b 182,246
+martian-38/app/controllers/uploads_controller.rb
+  h_e90f0321dd544b 55,63-71
+martian-38/app/models/optimized_image.rb
+  h_e90f0321dd544b 142,146,149-153,156
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "279687db261659b423452df22cb9ffeaa531a888",
+  "prompts": {},
+  "humans": {
+    "h_e90f0321dd544b": {
+      "author": "001005HS <99410048+001005HS@users.noreply.github.com>"
+    }
+  }
+}
