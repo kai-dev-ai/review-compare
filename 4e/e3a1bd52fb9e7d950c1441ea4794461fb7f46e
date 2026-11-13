@@ -1,0 +1,20 @@
+martian-19/pkg/services/authz/rbac.go
+  h_e90f0321dd544b 101-105,160,168-169,238-251
+martian-19/pkg/services/authz/rbac/cache.go
+  h_e90f0321dd544b 30-33
+martian-19/pkg/services/authz/rbac/service.go
+  h_e90f0321dd544b 56-61,85,116-138,153-156,180-191,342-369
+martian-19/pkg/services/authz/rbac/service_test.go
+  h_e90f0321dd544b 893-997,1291-1324,1336
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4ee3a1bd52fb9e7d950c1441ea4794461fb7f46e",
+  "prompts": {},
+  "humans": {
+    "h_e90f0321dd544b": {
+      "author": "001005HS <99410048+001005HS@users.noreply.github.com>"
+    }
+  }
+}
