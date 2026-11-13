@@ -1,0 +1,106 @@
+martian-0/js/apps/account-ui/maven-resources/theme/keycloak.v3/account/messages/messages_en.properties
+  h_e90f0321dd544b 188
+martian-0/js/apps/admin-ui/maven-resources-community/theme/keycloak.v2/admin/messages/messages_zh_CN.properties
+  h_e90f0321dd544b 1255
+martian-0/js/apps/admin-ui/maven-resources/theme/keycloak.v2/admin/messages/messages_en.properties
+  h_e90f0321dd544b 3138
+martian-0/misc/theme-verifier/pom.xml
+  h_e90f0321dd544b 75-85
+martian-0/misc/theme-verifier/src/main/java/org/keycloak/themeverifier/VerifyMessageProperties.java
+  h_e90f0321dd544b 20,24,31-35,51,58-173
+martian-0/misc/theme-verifier/src/test/java/org/keycloak/themeverifier/VerifyMessagePropertiesTest.java
+  h_e90f0321dd544b 32-51
+martian-0/misc/theme-verifier/src/test/resources/changedAnchor_de.properties
+  h_e90f0321dd544b 1-17
+martian-0/misc/theme-verifier/src/test/resources/changedAnchor_en.properties
+  h_e90f0321dd544b 1-17
+martian-0/misc/theme-verifier/src/test/resources/illegalHtmlTag_en.properties
+  h_e90f0321dd544b 1-17
+martian-0/misc/theme-verifier/src/test/resources/noHtml_de.properties
+  h_e90f0321dd544b 1-17
+martian-0/misc/theme-verifier/src/test/resources/noHtml_en.properties
+  h_e90f0321dd544b 1-17
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_fi.properties
+  h_e90f0321dd544b 141
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_lt.properties
+  h_e90f0321dd544b 101
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_sk.properties
+  h_e90f0321dd544b 101
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_sv.properties
+  h_e90f0321dd544b 96
+martian-0/themes/src/main/resources-community/theme/base/account/messages/messages_zh_CN.properties
+  h_e90f0321dd544b 112
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_da.properties
+  h_e90f0321dd544b 9
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_fa.properties
+  h_e90f0321dd544b 6
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_hu.properties
+  h_e90f0321dd544b 6
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_lt.properties
+  h_e90f0321dd544b 3,6,9,12
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_nl.properties
+  h_e90f0321dd544b 3
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_no.properties
+  h_e90f0321dd544b 5
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_tr.properties
+  h_e90f0321dd544b 9
+martian-0/themes/src/main/resources-community/theme/base/email/messages/messages_uk.properties
+  h_e90f0321dd544b 6
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_ar.properties
+  h_e90f0321dd544b 466-467,469-470
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_ca.properties
+  h_e90f0321dd544b 423-424,426-427
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_cs.properties
+  h_e90f0321dd544b 466-467,469-470
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_de.properties
+  h_e90f0321dd544b 420-421,423-424
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_el.properties
+  h_e90f0321dd544b 418-419,421-422
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_es.properties
+  h_e90f0321dd544b 442-443,445-446
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_fa.properties
+  h_e90f0321dd544b 457-458,460-461
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_fi.properties
+  h_e90f0321dd544b 400-401,403-404
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_fr.properties
+  h_e90f0321dd544b 377-378,380-381
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_hr.properties
+  h_e90f0321dd544b 479-480,482-483
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_ka.properties
+  h_e90f0321dd544b 172,174,451-452
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_ko.properties
+  h_e90f0321dd544b 480-481,483-484
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_lt.properties
+  h_e90f0321dd544b 71
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_no.properties
+  h_e90f0321dd544b 71
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_sk.properties
+  h_e90f0321dd544b 30,123,466-467,469-470,501
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_sv.properties
+  h_e90f0321dd544b 68
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_th.properties
+  h_e90f0321dd544b 462-463,465-466
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_tr.properties
+  h_e90f0321dd544b 469-470,472-473
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_uk.properties
+  h_e90f0321dd544b 459-460,462-463
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_zh_CN.properties
+  h_e90f0321dd544b 466-467,469-470
+martian-0/themes/src/main/resources-community/theme/base/login/messages/messages_zh_TW.properties
+  h_e90f0321dd544b 473-474,476-477
+martian-0/themes/src/main/resources/theme/base/admin/messages/messages_en.properties
+  h_e90f0321dd544b 69
+martian-0/themes/src/main/resources/theme/base/login/messages/messages_en.properties
+  h_e90f0321dd544b 487-488,490-491,530
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7647e6afc43ee4bb12f7640011d02d59e7c9a1a9",
+  "prompts": {},
+  "humans": {
+    "h_e90f0321dd544b": {
+      "author": "001005HS <99410048+001005HS@users.noreply.github.com>"
+    }
+  }
+}
