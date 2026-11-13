@@ -1,0 +1,34 @@
+martian-28/packages/grafana-data/src/types/config.ts
+  h_e90f0321dd544b 200
+martian-28/packages/grafana-runtime/src/config.ts
+  h_e90f0321dd544b 97
+martian-28/pkg/api/dtos/frontend_settings.go
+  h_e90f0321dd544b 195
+martian-28/pkg/api/frontendsettings.go
+  h_e90f0321dd544b 198
+martian-28/pkg/services/anonymous/anonimpl/anonstore/database.go
+  h_e90f0321dd544b 16-18,21-23,52-53,72-104,108-119
+martian-28/pkg/services/anonymous/anonimpl/anonstore/database_test.go
+  h_e90f0321dd544b 16,51-71,74
+martian-28/pkg/services/anonymous/anonimpl/api/api.go
+  h_e90f0321dd544b 18,71
+martian-28/pkg/services/anonymous/anonimpl/client.go
+  h_e90f0321dd544b 5,11,44-46,48-50
+martian-28/pkg/services/anonymous/anonimpl/impl.go
+  h_e90f0321dd544b 9,37,43,61,147
+martian-28/pkg/services/anonymous/anonimpl/impl_test.go
+  h_e90f0321dd544b 117,124,152
+martian-28/pkg/setting/setting.go
+  h_e90f0321dd544b 374,1649-1654
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "30a8b8b901045d19e952007a18b9b41f7583a20f",
+  "prompts": {},
+  "humans": {
+    "h_e90f0321dd544b": {
+      "author": "001005HS <99410048+001005HS@users.noreply.github.com>"
+    }
+  }
+}
