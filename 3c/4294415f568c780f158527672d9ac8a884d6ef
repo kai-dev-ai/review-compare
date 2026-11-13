@@ -1,0 +1,76 @@
+martian-32/app/assets/stylesheets/common/admin/admin_base.scss
+  h_e90f0321dd544b 385,506,524,577,600,726,1294,1331
+martian-32/app/assets/stylesheets/common/base/_topic-list.scss
+  h_e90f0321dd544b 48,51,55,69,246,301
+martian-32/app/assets/stylesheets/common/base/discourse.scss
+  h_e90f0321dd544b 76,79,82
+martian-32/app/assets/stylesheets/common/base/header.scss
+  h_e90f0321dd544b 153,195-196,301,332
+martian-32/app/assets/stylesheets/common/base/login.scss
+  h_e90f0321dd544b 39,54
+martian-32/app/assets/stylesheets/common/base/notification-options.scss
+  h_e90f0321dd544b 2
+martian-32/app/assets/stylesheets/common/base/search.scss
+  h_e90f0321dd544b 31,33,37
+martian-32/app/assets/stylesheets/common/base/share_link.scss
+  h_e90f0321dd544b 62
+martian-32/app/assets/stylesheets/common/base/topic-post.scss
+  h_e90f0321dd544b 15,21,24,55,71,159
+martian-32/app/assets/stylesheets/common/base/user-badges.scss
+  h_e90f0321dd544b 62,97
+martian-32/app/assets/stylesheets/common/base/user.scss
+  h_e90f0321dd544b 119,124,129
+martian-32/app/assets/stylesheets/common/components/badges.css.scss
+  h_e90f0321dd544b 239,285
+martian-32/app/assets/stylesheets/common/components/buttons.css.scss
+  h_e90f0321dd544b 60
+martian-32/app/assets/stylesheets/desktop/compose.scss
+  h_e90f0321dd544b 340
+martian-32/app/assets/stylesheets/desktop/header.scss
+  h_e90f0321dd544b 53,59
+martian-32/app/assets/stylesheets/desktop/login.scss
+  h_e90f0321dd544b 17,48
+martian-32/app/assets/stylesheets/desktop/modal.scss
+  h_e90f0321dd544b 50,67,94,117,121,131
+martian-32/app/assets/stylesheets/desktop/queued-posts.scss
+  h_e90f0321dd544b 14
+martian-32/app/assets/stylesheets/desktop/topic-list.scss
+  h_e90f0321dd544b 39-40,42,54,135,144,223,227
+martian-32/app/assets/stylesheets/desktop/topic-post.scss
+  h_e90f0321dd544b 34,81,113,126,278,291,294,321,329,342,382,416,896-897,941,958
+martian-32/app/assets/stylesheets/desktop/topic.scss
+  h_e90f0321dd544b 61,69
+martian-32/app/assets/stylesheets/desktop/upload.scss
+  h_e90f0321dd544b 20
+martian-32/app/assets/stylesheets/desktop/user.scss
+  h_e90f0321dd544b 59,173,514,522,527,603
+martian-32/app/assets/stylesheets/embed.css.scss
+  h_e90f0321dd544b 89
+martian-32/app/assets/stylesheets/mobile/compose.scss
+  h_e90f0321dd544b 36,51,168,172
+martian-32/app/assets/stylesheets/mobile/login.scss
+  h_e90f0321dd544b 17,45
+martian-32/app/assets/stylesheets/mobile/modal.scss
+  h_e90f0321dd544b 102
+martian-32/app/assets/stylesheets/mobile/topic-list.scss
+  h_e90f0321dd544b 75,95,146,209
+martian-32/app/assets/stylesheets/mobile/topic-post.scss
+  h_e90f0321dd544b 49,151,182,190,247,270,442,498
+martian-32/app/assets/stylesheets/mobile/topic.scss
+  h_e90f0321dd544b 34
+martian-32/app/assets/stylesheets/mobile/upload.scss
+  h_e90f0321dd544b 10
+martian-32/app/assets/stylesheets/mobile/user.scss
+  h_e90f0321dd544b 115,489,497,503,580
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3c4294415f568c780f158527672d9ac8a884d6ef",
+  "prompts": {},
+  "humans": {
+    "h_e90f0321dd544b": {
+      "author": "001005HS <99410048+001005HS@users.noreply.github.com>"
+    }
+  }
+}
