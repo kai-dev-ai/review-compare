@@ -179,7 +179,7 @@ Discourse.Utilities = {
 
     // check file size
     var fileSizeKB = file.size / 1024;
-    var maxSizeKB = 10 * 1024; // 10MB
+    var maxSizeKB = Discourse.SiteSettings[type === 'image' ? 'max_image_size_kb' : 'max_attachment_size_kb'];
     if (fileSizeKB > maxSizeKB) {
       bootbox.alert(I18n.t('post.errors.file_too_large', { max_size_kb: maxSizeKB }));
       return false;
