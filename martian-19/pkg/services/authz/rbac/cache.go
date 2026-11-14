@@ -4,9 +4,12 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
+	"strconv"
+	"strings"
 	"time"
 
 	"github.com/grafana/authlib/cache"
+	"github.com/grafana/authlib/types"
 
 	"github.com/grafana/grafana/pkg/infra/log"
 )
@@ -27,8 +30,16 @@ func userPermCacheKey(namespace, userUID, action string) string {
 	return namespace + ".perm_" + userUID + "_" + action
 }
 
-func userPermDenialCacheKey(namespace, userUID, action, name, parent string) string {
-	return namespace + ".perm_" + userUID + "_" + action + "_" + name + "_" + parent
+func userPermDenialCacheKey(namespace string, identityType types.IdentityType, userUID, action, name, parent string) string {
+	var key strings.Builder
+	key.WriteString("perm_denial:")
+	// Length prefixes preserve field boundaries even when values contain delimiters.
+	for _, field := range []string{namespace, string(identityType), userUID, action, name, parent} {
+		key.WriteString(strconv.Itoa(len(field)))
+		key.WriteByte(':')
+		key.WriteString(field)
+	}
+	return key.String()
 }
 
 func userBasicRoleCacheKey(namespace, userUID string) string {
