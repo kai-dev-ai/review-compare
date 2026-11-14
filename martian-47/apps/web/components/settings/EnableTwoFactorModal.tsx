@@ -173,7 +173,6 @@ const EnableTwoFactorModal = ({ onEnable, onCancel, open, onOpenChange }: Enable
             <div className="mb-4">
               <PasswordField
                 label={t("password")}
-                type="password"
                 name="password"
                 id="password"
                 required
@@ -273,10 +272,14 @@ const EnableTwoFactorModal = ({ onEnable, onCancel, open, onOpenChange }: Enable
                 <Button
                   color="secondary"
                   data-testid="backup-codes-copy"
-                  onClick={(e) => {
+                  onClick={async (e) => {
                     e.preventDefault();
-                    navigator.clipboard.writeText(backupCodes.map(formatBackupCode).join("\n"));
-                    showToast(t("backup_codes_copied"), "success");
+                    try {
+                      await navigator.clipboard.writeText(backupCodes.map(formatBackupCode).join("\n"));
+                      showToast(t("backup_codes_copied"), "success");
+                    } catch {
+                      showToast(t("something_went_wrong"), "error");
+                    }
                   }}>
                   {t("copy")}
                 </Button>

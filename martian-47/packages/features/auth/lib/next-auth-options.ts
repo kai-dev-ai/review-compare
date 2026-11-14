@@ -110,6 +110,10 @@ const providers: Provider[] = [
         identifier: user.email,
       });
 
+      if (credentials.totpCode && credentials.backupCode) {
+        throw new Error(ErrorCode.IncorrectTwoFactorCode);
+      }
+
       if (user.identityProvider !== IdentityProvider.CAL && !credentials.totpCode) {
         throw new Error(ErrorCode.ThirdPartyIdentityProviderEnabled);
       }
@@ -136,8 +140,9 @@ const providers: Provider[] = [
 
         if (!user.backupCodes) throw new Error(ErrorCode.MissingBackupCodes);
 
+        const storedBackupCodes = user.backupCodes;
         const backupCodes = JSON.parse(
-          symmetricDecrypt(user.backupCodes, process.env.CALENDSO_ENCRYPTION_KEY)
+          symmetricDecrypt(storedBackupCodes, process.env.CALENDSO_ENCRYPTION_KEY)
         );
 
         // check if user-supplied code matches one
@@ -146,14 +151,16 @@ const providers: Provider[] = [
 
         // delete verified backup code and re-encrypt remaining
         backupCodes[index] = null;
-        await prisma.user.update({
+        const result = await prisma.user.updateMany({
           where: {
             id: user.id,
+            backupCodes: storedBackupCodes,
           },
           data: {
             backupCodes: symmetricEncrypt(JSON.stringify(backupCodes), process.env.CALENDSO_ENCRYPTION_KEY),
           },
         });
+        if (result.count === 0) throw new Error(ErrorCode.IncorrectBackupCode);
       } else if (user.twoFactorEnabled) {
         if (!credentials.totpCode) {
           throw new Error(ErrorCode.SecondFactorRequired);
