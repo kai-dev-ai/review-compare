@@ -135,18 +135,33 @@ class OptimizedImage < ActiveRecord::Base
   end
 
   def self.downsize_instructions_animated(from, to, dimensions, opts={})
-    resize_instructions_animated(from, to, dimensions, opts)
+    # gifsicle's --resize-fit does not understand percentages
+    if dimensions.to_s =~ /\A(\d+(?:\.\d+)?)%\z/
+      %W{
+        gifsicle
+        #{from}
+        --colors=256
+        --scale #{Float($1) / 100}
+        --optimize=3
+        --output #{to}
+      }
+    else
+      resize_instructions_animated(from, to, dimensions, opts)
+    end
   end
 
   def self.resize(from, to, width, height, opts={})
     optimize("resize", from, to, "#{width}x#{height}", opts)
   end
 
-  def self.downsize(from, to, max_width, max_height, opts={})
-    optimize("downsize", from, to, "#{max_width}x#{max_height}", opts)
-  end
-
-  def self.downsize(from, to, dimensions, opts={})
+  # accepts either a dimensions string (ie. "80%" or "100x100")
+  # or a separate max width and max height
+  def self.downsize(from, to, max_width, max_height=nil, opts={})
+    if max_height.is_a?(Hash)
+      opts = max_height
+      max_height = nil
+    end
+    dimensions = max_height.nil? ? max_width : "#{max_width}x#{max_height}"
     optimize("downsize", from, to, dimensions, opts)
   end
 
