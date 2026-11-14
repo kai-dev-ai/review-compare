@@ -4,9 +4,11 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
+	"fmt"
 	"time"
 
 	"github.com/grafana/authlib/cache"
+	"github.com/grafana/authlib/types"
 
 	"github.com/grafana/grafana/pkg/infra/log"
 )
@@ -27,8 +29,8 @@ func userPermCacheKey(namespace, userUID, action string) string {
 	return namespace + ".perm_" + userUID + "_" + action
 }
 
-func userPermDenialCacheKey(namespace, userUID, action, name, parent string) string {
-	return namespace + ".perm_" + userUID + "_" + action + "_" + name + "_" + parent
+func userPermDenialCacheKey(namespace string, idType types.IdentityType, userUID, action, name, parent string) string {
+	return fmt.Sprintf("%s.perm_denial_%q_%q_%q_%q_%q", namespace, idType, userUID, action, name, parent)
 }
 
 func userBasicRoleCacheKey(namespace, userUID string) string {
