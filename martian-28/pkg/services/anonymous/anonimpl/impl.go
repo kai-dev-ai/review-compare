@@ -84,8 +84,6 @@ func (a *AnonDeviceService) tagDeviceUI(ctx context.Context, httpReq *http.Reque
 		return nil
 	}
 
-	a.localCache.SetDefault(key, struct{}{})
-
 	if setting.Env == setting.Dev {
 		a.log.Debug("Tagging device for UI", "deviceID", device.DeviceID, "device", device, "key", key)
 	}
@@ -94,6 +92,7 @@ func (a *AnonDeviceService) tagDeviceUI(ctx context.Context, httpReq *http.Reque
 		return err
 	}
 
+	a.localCache.SetDefault(key, struct{}{})
 	return nil
 }
 
@@ -125,7 +124,6 @@ func (a *AnonDeviceService) TagDevice(ctx context.Context, httpReq *http.Request
 	ip, err := network.GetIPFromAddress(addr)
 	if err != nil {
 		a.log.Debug("Failed to parse ip from address", "addr", addr)
-		return nil
 	}
 
 	clientIPStr := ip.String()
