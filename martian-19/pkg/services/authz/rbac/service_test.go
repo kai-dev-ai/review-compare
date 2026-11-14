@@ -976,7 +976,7 @@ func TestService_CacheCheck(t *testing.T) {
 		s.idCache.Set(ctx, userIdentifierCacheKey("org-12", "test-uid"), *userID)
 
 		// Explicitly deny access to the dashboard
-		s.permDenialCache.Set(ctx, userPermDenialCacheKey("org-12", "test-uid", "dashboards:read", "dash1", "fold1"), true)
+		s.permDenialCache.Set(ctx, userPermDenialCacheKey("org-12", types.TypeUser, "test-uid", "dashboards:read", "dash1", "fold1"), true)
 
 		// Allow access to the dashboard to prove this is not checked
 		s.permCache.Set(ctx, userPermCacheKey("org-12", "test-uid", "dashboards:read"), map[string]bool{"dashboards:uid:dash1": false})
