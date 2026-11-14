@@ -494,7 +494,7 @@
       .name {
         display: inline-block;
         margin-top: 5px;
-        color: dark-light-choose(scale-color($primary, $lightness: 50%), scale-color($secondary, $lightness: 50%));
+        color: dark-light-choose(scale-color($primary, $lightness: 30%), scale-color($secondary, $lightness: 70%));
         vertical-align: inherit;
       }
       .title {

@@ -288,7 +288,7 @@ nav.post-controls {
     font-size: 0.929em;
     a {
       font-weight: bold;
-      color: dark-light-choose(scale-color($primary, $lightness: 70%), scale-color($secondary, $lightness: 30%));
+      color: dark-light-choose(scale-color($primary, $lightness: 30%), scale-color($secondary, $lightness: 70%));
     }
   }
   .arrow {color: dark-light-choose(scale-color($primary, $lightness: 60%), scale-color($secondary, $lightness: 40%)); }
