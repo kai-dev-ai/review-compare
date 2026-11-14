@@ -134,3 +134,52 @@ describe("Tests the slot logic", () => {
     ).toHaveLength(71);
   });
 });
+
+describe("Date overrides across invitee midnight", () => {
+  const cases = [
+    {
+      timeZone: "Asia/Tokyo",
+      start: "2021-06-21T14:00:00Z",
+      end: "2021-06-21T17:00:00Z",
+    },
+    {
+      timeZone: "America/Phoenix",
+      start: "2021-06-22T06:00:00Z",
+      end: "2021-06-22T09:00:00Z",
+    },
+  ];
+
+  cases.forEach(({ timeZone, start, end }) => {
+    it(`includes both invitee days in ${timeZone}`, () => {
+      const slotsForDay = (date: string) =>
+        getSlots({
+          inviteeDate: dayjs.tz(date, timeZone),
+          frequency: 60,
+          minimumBookingNotice: 0,
+          workingHours: [],
+          dateOverrides: [
+            {
+              userId: 1,
+              start: new Date(start),
+              end: new Date(end),
+              timeZone: "UTC",
+            },
+          ],
+          eventLength: 60,
+          organizerTimeZone: "UTC",
+        }).map((slot) => ({
+          time: slot.time.format("YYYY-MM-DD HH:mm"),
+          userIds: slot.userIds,
+        }));
+
+      expect(slotsForDay("2021-06-21")).toEqual([
+        { time: "2021-06-21 23:00", userIds: [1] },
+      ]);
+      expect(slotsForDay("2021-06-22")).toEqual([
+        { time: "2021-06-22 00:00", userIds: [1] },
+        { time: "2021-06-22 01:00", userIds: [1] },
+      ]);
+      expect(slotsForDay("2021-06-23")).toEqual([]);
+    });
+  });
+});
