@@ -46,7 +46,6 @@ export const PasswordField = forwardRef<HTMLInputElement, InputFieldProps>(funct
           <Tooltip content={textLabel}>
             <button
               className="text-emphasis h-9"
-              tabIndex={-1}
               type="button"
               onClick={() => toggleIsPasswordVisible()}>
               {isPasswordVisible ? (
