@@ -232,13 +232,13 @@
   @extend %badge;
   padding: 4px 5px 2px 5px;
   vertical-align: middle;
-  color: $secondary;
+  color: dark-light-choose($secondary, $primary);
   font-size: 11px;
   line-height: 1;
   text-align: center;
   background-color: dark-light-choose(scale-color($primary, $lightness: 70%), scale-color($secondary, $lightness: 30%));
   &[href] {
-  color: $secondary;
+  color: dark-light-choose($secondary, $primary);
   }
 
   // New posts
