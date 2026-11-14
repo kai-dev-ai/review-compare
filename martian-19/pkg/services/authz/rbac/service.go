@@ -2,6 +2,7 @@ package rbac
 
 import (
 	"context"
+	"errors"
 	"fmt"
 	"strconv"
 	"strings"
@@ -113,7 +114,7 @@ func (s *Service) Check(ctx context.Context, req *authzv1.CheckRequest) (*authzv
 		attribute.String("folder", checkReq.ParentFolder),
 	)
 
-	permDenialKey := userPermDenialCacheKey(checkReq.Namespace.Value, checkReq.UserUID, checkReq.Action, checkReq.Name, checkReq.ParentFolder)
+	permDenialKey := userPermDenialCacheKey(checkReq.Namespace.Value, checkReq.IdentityType, checkReq.UserUID, checkReq.Action, checkReq.Name, checkReq.ParentFolder)
 	if _, ok := s.permDenialCache.Get(ctx, permDenialKey); ok {
 		s.metrics.permissionCacheUsage.WithLabelValues("true", checkReq.Action).Inc()
 		s.metrics.requestCount.WithLabelValues("false", "true", req.GetVerb(), req.GetGroup(), req.GetResource()).Inc()
@@ -121,6 +122,11 @@ func (s *Service) Check(ctx context.Context, req *authzv1.CheckRequest) (*authzv
 	}
 
 	cachedPerms, err := s.getCachedIdentityPermissions(ctx, checkReq.Namespace, checkReq.IdentityType, checkReq.UserUID, checkReq.Action)
+	if err != nil && !errors.Is(err, cache.ErrNotFound) {
+		ctxLogger.Error("could not get cached user permissions", "subject", req.GetSubject(), "error", err)
+		s.metrics.requestCount.WithLabelValues("true", "true", req.GetVerb(), req.GetGroup(), req.GetResource()).Inc()
+		return deny, err
+	}
 	if err == nil {
 		allowed, err := s.checkPermission(ctx, cachedPerms, checkReq)
 		if err != nil {
@@ -180,7 +186,7 @@ func (s *Service) List(ctx context.Context, req *authzv1.ListRequest) (*authzv1.
 	permissions, err := s.getCachedIdentityPermissions(ctx, listReq.Namespace, listReq.IdentityType, listReq.UserUID, listReq.Action)
 	if err == nil {
 		s.metrics.permissionCacheUsage.WithLabelValues("true", listReq.Action).Inc()
-	} else {
+	} else if errors.Is(err, cache.ErrNotFound) {
 		s.metrics.permissionCacheUsage.WithLabelValues("false", listReq.Action).Inc()
 
 		permissions, err = s.getIdentityPermissions(ctx, listReq.Namespace, listReq.IdentityType, listReq.UserUID, listReq.Action)
@@ -189,6 +195,10 @@ func (s *Service) List(ctx context.Context, req *authzv1.ListRequest) (*authzv1.
 			s.metrics.requestCount.WithLabelValues("true", "true", req.GetVerb(), req.GetGroup(), req.GetResource()).Inc()
 			return nil, err
 		}
+	} else {
+		ctxLogger.Error("could not get cached user permissions", "subject", req.GetSubject(), "error", err)
+		s.metrics.requestCount.WithLabelValues("true", "true", req.GetVerb(), req.GetGroup(), req.GetResource()).Inc()
+		return nil, err
 	}
 
 	resp, err := s.listPermission(ctx, permissions, listReq)

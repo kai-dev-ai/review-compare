@@ -976,10 +976,10 @@ func TestService_CacheCheck(t *testing.T) {
 		s.idCache.Set(ctx, userIdentifierCacheKey("org-12", "test-uid"), *userID)
 
 		// Explicitly deny access to the dashboard
-		s.permDenialCache.Set(ctx, userPermDenialCacheKey("org-12", "test-uid", "dashboards:read", "dash1", "fold1"), true)
+		s.permDenialCache.Set(ctx, userPermDenialCacheKey("org-12", types.TypeUser, "test-uid", "dashboards:read", "dash1", "fold1"), true)
 
 		// Allow access to the dashboard to prove this is not checked
-		s.permCache.Set(ctx, userPermCacheKey("org-12", "test-uid", "dashboards:read"), map[string]bool{"dashboards:uid:dash1": false})
+		s.permCache.Set(ctx, userPermCacheKey("org-12", "test-uid", "dashboards:read"), map[string]bool{"dashboards:uid:dash1": true})
 
 		resp, err := s.Check(ctx, &authzv1.CheckRequest{
 			Namespace: "org-12",
@@ -992,6 +992,67 @@ func TestService_CacheCheck(t *testing.T) {
 		})
 		require.NoError(t, err)
 		assert.False(t, resp.Allowed)
+	})
+	t.Run("Should not apply a denial cached for another identity type", func(t *testing.T) {
+		s := setupService()
+		s.permDenialCache.Set(ctx, userPermDenialCacheKey("org-12", types.TypeAnonymous, "0", "dashboards:read", "dash1", ""), true)
+
+		resp, err := s.Check(ctx, &authzv1.CheckRequest{
+			Namespace: "org-12",
+			Subject:   "render:0",
+			Group:     "dashboard.grafana.app",
+			Resource:  "dashboards",
+			Verb:      "get",
+			Name:      "dash1",
+		})
+		require.NoError(t, err)
+		assert.True(t, resp.Allowed)
+
+		resp, err = s.Check(ctx, &authzv1.CheckRequest{
+			Namespace: "org-12",
+			Subject:   "anonymous:0",
+			Group:     "dashboard.grafana.app",
+			Resource:  "dashboards",
+			Verb:      "get",
+			Name:      "dash1",
+		})
+		require.NoError(t, err)
+		assert.False(t, resp.Allowed)
+	})
+	t.Run("Should not collide denial entries with ambiguous name and folder", func(t *testing.T) {
+		s := setupService()
+		s.idCache.Set(ctx, userIdentifierCacheKey("org-12", "test-uid"), *userID)
+		s.permDenialCache.Set(ctx, userPermDenialCacheKey("org-12", types.TypeUser, "test-uid", "dashboards:read", "foo_bar", "baz"), true)
+		s.permCache.Set(ctx, userPermCacheKey("org-12", "test-uid", "dashboards:read"), map[string]bool{"dashboards:uid:foo": true})
+
+		resp, err := s.Check(ctx, &authzv1.CheckRequest{
+			Namespace: "org-12",
+			Subject:   "user:test-uid",
+			Group:     "dashboard.grafana.app",
+			Resource:  "dashboards",
+			Verb:      "get",
+			Name:      "foo",
+			Folder:    "bar_baz",
+		})
+		require.NoError(t, err)
+		assert.True(t, resp.Allowed)
+	})
+	t.Run("Should propagate identifier lookup errors without retrying", func(t *testing.T) {
+		s := setupService()
+		store := &fakeStore{err: true}
+		s.store = store
+		s.permissionStore = store
+
+		_, err := s.Check(ctx, &authzv1.CheckRequest{
+			Namespace: "org-12",
+			Subject:   "user:test-uid",
+			Group:     "dashboard.grafana.app",
+			Resource:  "dashboards",
+			Verb:      "get",
+			Name:      "dash1",
+		})
+		require.Error(t, err)
+		assert.Equal(t, 1, store.calls)
 	})
 }
 
@@ -1319,6 +1380,23 @@ func TestService_CacheList(t *testing.T) {
 		require.NoError(t, err)
 		require.ElementsMatch(t, resp.Items, []string{"dash1", "dash2"})
 		require.ElementsMatch(t, resp.Folders, []string{"fold1"})
+	})
+	t.Run("Should propagate identifier lookup errors without retrying", func(t *testing.T) {
+		s := setupService()
+		ctx := types.WithAuthInfo(context.Background(), callingService)
+		store := &fakeStore{err: true}
+		s.store = store
+		s.permissionStore = store
+
+		_, err := s.List(ctx, &authzv1.ListRequest{
+			Namespace: "org-12",
+			Subject:   "user:test-uid",
+			Group:     "dashboard.grafana.app",
+			Resource:  "dashboards",
+			Verb:      "list",
+		})
+		require.Error(t, err)
+		assert.Equal(t, 1, store.calls)
 	})
 }
 
