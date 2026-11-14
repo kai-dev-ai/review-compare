@@ -41,7 +41,9 @@ public interface CryptoProvider {
      *
      * The higher number has preference over the lower number
      */
-    int order();
+    default int order() {
+        return 0;
+    }
 
     /**
      * Get some algorithm provider implementation. Returned implementation can be dependent according to if we have
