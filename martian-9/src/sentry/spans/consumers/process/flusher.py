@@ -251,7 +251,7 @@ class SpanFlusher(ProcessingStrategy[FilteredPayload | int]):
             self.process_restarts[process_index] += 1
 
             try:
-                if isinstance(process, multiprocessing.Process):
+                if isinstance(process, self.mp_context.Process):
                     process.kill()
             except (ValueError, AttributeError):
                 pass  # Process already closed, ignore
@@ -335,13 +335,8 @@ class SpanFlusher(ProcessingStrategy[FilteredPayload | int]):
 
         # Wait for all processes to finish
         for process_index, process in self.processes.items():
-            if deadline is not None:
-                remaining_time = deadline - time.time()
-                if remaining_time <= 0:
-                    break
-
             while process.is_alive() and (deadline is None or deadline > time.time()):
                 time.sleep(0.1)
 
-            if isinstance(process, multiprocessing.Process):
+            if isinstance(process, self.mp_context.Process):
                 process.terminate()
