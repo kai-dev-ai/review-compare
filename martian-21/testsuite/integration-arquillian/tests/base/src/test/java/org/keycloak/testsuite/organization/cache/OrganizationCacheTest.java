@@ -28,6 +28,8 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Stream;
 
+import jakarta.ws.rs.NotFoundException;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -371,14 +373,21 @@ public class OrganizationCacheTest extends AbstractOrganizationTest {
         // create 20 providers, and associate 10 of them with an organization.
         for (int i = 0; i < 20; i++) {
             IdentityProviderRepresentation idpRep = new IdentityProviderRepresentation();
-            idpRep.setAlias("idp-alias-" + i);
+            final String alias = "idp-alias-" + i;
+            idpRep.setAlias(alias);
             idpRep.setEnabled((i % 2) == 0); // half of the IDPs will be disabled and won't qualify for login.
             idpRep.setDisplayName("Broker " + i);
             idpRep.setProviderId("keycloak-oidc");
             if (i >= 10)
                 idpRep.getConfig().put(OrganizationModel.BROKER_PUBLIC, Boolean.TRUE.toString());
             testRealm().identityProviders().create(idpRep).close();
-            getCleanup().addCleanup(testRealm().identityProviders().get("alias")::remove);
+            getCleanup().addCleanup(() -> {
+                try {
+                    testRealm().identityProviders().get(alias).remove();
+                } catch (NotFoundException ignored) {
+                    // idp-alias-1 may already have been removed by the test.
+                }
+            });
         }
 
         String orgaId = testRealm().organizations().getAll().get(0).getId();
@@ -422,7 +431,7 @@ public class OrganizationCacheTest extends AbstractOrganizationTest {
         idpRep.setDisplayName("Broker " + 20);
         idpRep.setProviderId("keycloak-oidc");
         testRealm().identityProviders().create(idpRep).close();
-        getCleanup().addCleanup(testRealm().identityProviders().get("alias")::remove);
+        getCleanup().addCleanup(testRealm().identityProviders().get(idpRep.getAlias())::remove);
 
         // remove one IDP that was not available for login.
         testRealm().identityProviders().get("idp-alias-1").remove();
