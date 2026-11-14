@@ -1,5 +1,5 @@
-import time
 from datetime import datetime
+from threading import Event
 
 import pytest
 import rapidjson
@@ -16,6 +16,11 @@ def test_basic(monkeypatch):
 
     topic = Topic("test")
     messages: list[KafkaPayload] = []
+    message_received = Event()
+
+    def append_message(message: KafkaPayload) -> None:
+        messages.append(message)
+        message_received.set()
 
     fac = ProcessSpansStrategyFactory(
         max_batch_size=10,
@@ -23,7 +28,7 @@ def test_basic(monkeypatch):
         num_processes=1,
         input_block_size=None,
         output_block_size=None,
-        produce_to_pipe=messages.append,
+        produce_to_pipe=append_message,
     )
 
     commits = []
@@ -58,8 +63,7 @@ def test_basic(monkeypatch):
     fac._flusher.current_drift.value = 9000  # "advance" our "clock"
 
     step.poll()
-    # Give flusher threads time to process after drift change
-    time.sleep(0.1)
+    assert message_received.wait(timeout=5), "Flusher did not produce the expected message"
 
     step.join()
 
