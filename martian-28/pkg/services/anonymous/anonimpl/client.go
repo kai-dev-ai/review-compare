@@ -2,7 +2,10 @@ package anonimpl
 
 import (
 	"context"
+	"crypto/sha256"
 	"errors"
+	"fmt"
+	"net"
 	"net/http"
 	"strings"
 
@@ -35,10 +38,25 @@ func (a *Anonymous) Authenticate(ctx context.Context, r *authn.Request) (*authn.
 	}
 
 	httpReqCopy := &http.Request{}
-	if r.HTTPRequest != nil && r.HTTPRequest.Header != nil {
+	if r.HTTPRequest != nil {
 		// avoid r.HTTPRequest.Clone(context.Background()) as we do not require a full clone
 		httpReqCopy.Header = r.HTTPRequest.Header.Clone()
 		httpReqCopy.RemoteAddr = r.HTTPRequest.RemoteAddr
+	}
+
+	if a.cfg.AnonymousDeviceLimit > 0 && httpReqCopy.Header.Get(deviceIDHeader) == "" {
+		// Initial page loads and non-browser clients may not send a device ID.
+		// Use a stable fallback so they still consume a device slot. Strip the
+		// source port so subsequent connections reuse the same slot.
+		addr := httpReqCopy.RemoteAddr
+		if host, _, err := net.SplitHostPort(addr); err == nil {
+			addr = host
+		}
+		if httpReqCopy.Header == nil {
+			httpReqCopy.Header = make(http.Header)
+		}
+		deviceID := sha256.Sum256([]byte(addr + "\x00" + httpReqCopy.UserAgent()))
+		httpReqCopy.Header.Set(deviceIDHeader, fmt.Sprintf("fallback-%x", deviceID))
 	}
 
 	if err := a.anonDeviceService.TagDevice(ctx, httpReqCopy, anonymous.AnonDeviceUI); err != nil {

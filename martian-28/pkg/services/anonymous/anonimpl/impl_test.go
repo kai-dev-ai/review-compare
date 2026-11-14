@@ -2,6 +2,7 @@ package anonimpl
 
 import (
 	"context"
+	"errors"
 	"net/http"
 	"testing"
 	"time"
@@ -11,6 +12,8 @@ import (
 
 	"github.com/grafana/grafana/pkg/api/routing"
 	"github.com/grafana/grafana/pkg/infra/db"
+	"github.com/grafana/grafana/pkg/infra/localcache"
+	"github.com/grafana/grafana/pkg/infra/log"
 	"github.com/grafana/grafana/pkg/infra/usagestats"
 	"github.com/grafana/grafana/pkg/services/accesscontrol/actest"
 	"github.com/grafana/grafana/pkg/services/anonymous"
@@ -176,4 +179,34 @@ func TestIntegrationAnonDeviceService_localCacheSafety(t *testing.T) {
 	require.NoError(t, err)
 
 	assert.Equal(t, int64(0), stats["stats.anonymous.device.ui.count"].(int64))
+}
+
+type rejectingDeviceStore struct {
+	anonstore.AnonStore
+	calls int
+}
+
+func (s *rejectingDeviceStore) CreateOrUpdateDevice(context.Context, *anonstore.Device) error {
+	s.calls++
+	return anonstore.ErrDeviceLimitReached
+}
+
+func TestAnonDeviceService_RejectedDeviceRetries(t *testing.T) {
+	for _, addr := range []string{"192.0.2.1:1234", "", "invalid-address"} {
+		t.Run(addr, func(t *testing.T) {
+			store := &rejectingDeviceStore{}
+			service := &AnonDeviceService{
+				log:        log.NewNopLogger(),
+				localCache: localcache.New(time.Minute, time.Minute),
+				anonStore:  store,
+			}
+			req := &http.Request{RemoteAddr: addr, Header: http.Header{}}
+			req.Header.Set(deviceIDHeader, "device")
+			for i := 0; i < 2; i++ {
+				err := service.TagDevice(context.Background(), req, anonymous.AnonDeviceUI)
+				require.True(t, errors.Is(err, anonstore.ErrDeviceLimitReached), "retries must still enforce the limit")
+			}
+			assert.Equal(t, 2, store.calls)
+		})
+	}
 }
