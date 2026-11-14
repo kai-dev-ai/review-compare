@@ -203,26 +203,42 @@ const getSlots = ({
     }
   });
   // an override precedes all the local working hour availability logic.
-  const activeOverrides = dateOverrides.filter((override) => {
-    return dayjs.utc(override.start).isBetween(startOfInviteeDay, startOfInviteeDay.endOf("day"), null, "[)");
-  });
-
-  if (!!activeOverrides.length) {
-    const overrides = activeOverrides.flatMap((override) => {
-      const organizerUtcOffset = dayjs(override.start.toString()).tz(override.timeZone).utcOffset();
-      const inviteeUtcOffset = dayjs(override.start.toString()).tz(timeZone).utcOffset();
-      const offset = inviteeUtcOffset - organizerUtcOffset;
-
-      return {
-        userIds: override.userId ? [override.userId] : [],
-        startTime:
-          dayjs(override.start).utc().add(offset, "minute").hour() * 60 +
-          dayjs(override.start).utc().add(offset, "minute").minute(),
-        endTime:
-          dayjs(override.end).utc().add(offset, "minute").hour() * 60 +
-          dayjs(override.end).utc().add(offset, "minute").minute(),
+  // Keep converted calendar dates until the interval has been clipped to this invitee day.
+  const inviteeDay = dayjs.utc(inviteeDate.format("YYYY-MM-DD"));
+  const nextInviteeDay = inviteeDay.add(1, "day");
+  const activeOverrides = dateOverrides
+    .map((override) => {
+      const convert = (date: Date) => {
+        const organizerUtcOffset = dayjs(date)
+          .tz(override.timeZone)
+          .utcOffset();
+        const inviteeUtcOffset = dayjs(date).tz(timeZone).utcOffset();
+        return dayjs
+          .utc(date)
+          .add(inviteeUtcOffset - organizerUtcOffset, "minute");
       };
-    });
+      return {
+        ...override,
+        start: convert(override.start),
+        end: convert(override.end),
+      };
+    })
+    .filter(
+      ({ start, end }) =>
+        (start.isSame(inviteeDay, "day") && start.isSame(end)) ||
+        (start.isBefore(nextInviteeDay) && end.isAfter(inviteeDay))
+    );
+
+  if (activeOverrides.length) {
+    const overrides = activeOverrides.map((override) => ({
+      userIds: override.userId ? [override.userId] : [],
+      startTime: Math.max(0, override.start.diff(inviteeDay, "minute")),
+      // buildSlots uses an inclusive last minute for intervals ending at midnight.
+      endTime:
+        override.end.valueOf() >= nextInviteeDay.valueOf()
+          ? 24 * 60 - 1
+          : override.end.diff(inviteeDay, "minute"),
+    }));
 
     // unset all working hours that relate to this user availability override
     overrides.forEach((override) => {

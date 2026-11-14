@@ -99,55 +99,47 @@ const checkIfIsAvailable = ({
   const slotEndTime = time.add(eventLength, "minutes").utc();
   const slotStartTime = time.utc();
 
-  //check if date override for slot exists
-  let dateOverrideExist = false;
-
-  if (
-    dateOverrides.find((date) => {
-      const utcOffset = organizerTimeZone ? dayjs.tz(date.start, organizerTimeZone).utcOffset() * -1 : 0;
-
-      if (
-        dayjs(date.start).add(utcOffset, "minutes").format("YYYY MM DD") ===
-        slotStartTime.format("YYYY MM DD")
-      ) {
-        dateOverrideExist = true;
-        if (dayjs(date.start).add(utcOffset, "minutes") === dayjs(date.end).add(utcOffset, "minutes")) {
-          return true;
-        }
-        if (
-          slotEndTime.isBefore(dayjs(date.start).add(utcOffset, "minutes")) ||
-          slotEndTime.isSame(dayjs(date.start).add(utcOffset, "minutes"))
-        ) {
-          return true;
-        }
-        if (slotStartTime.isAfter(dayjs(date.end).add(utcOffset, "minutes"))) {
-          return true;
-        }
-      }
+  const overridesForDay = dateOverrides
+    .map((date) => {
+      const utcOffset = organizerTimeZone
+        ? dayjs.tz(date.start, organizerTimeZone).utcOffset() * -1
+        : 0;
+      return {
+        start: dayjs(date.start).add(utcOffset, "minutes"),
+        end: dayjs(date.end).add(utcOffset, "minutes"),
+      };
     })
-  ) {
-    // slot is not within the date override
-    return false;
-  }
+    .filter(
+      ({ start, end }) =>
+        start.isSame(slotStartTime, "day") ||
+        (start.isBefore(slotStartTime.endOf("day")) &&
+          end.isAfter(slotStartTime.startOf("day")))
+    );
 
-  if (dateOverrideExist) {
-    return true;
-  }
-
-  //if no date override for slot exists check if it is within normal work hours
-  if (
-    workingHours.find((workingHour) => {
-      if (workingHour.days.includes(slotStartTime.day())) {
-        const start = slotStartTime.hour() * 60 + slotStartTime.minute();
-        const end = slotStartTime.hour() * 60 + slotStartTime.minute();
-        if (start < workingHour.startTime || end > workingHour.endTime) {
-          return true;
-        }
-      }
-    })
-  ) {
-    // slot is outside of working hours
-    return false;
+  if (overridesForDay.length) {
+    if (
+      !overridesForDay.some(
+        ({ start, end }) =>
+          slotStartTime.valueOf() >= start.valueOf() &&
+          slotEndTime.valueOf() <= end.valueOf()
+      )
+    ) {
+      return false;
+    }
+  } else if (workingHours.length) {
+    const startOfDay = slotStartTime.startOf("day");
+    const start = slotStartTime.diff(startOfDay, "minute", true);
+    const end = slotEndTime.diff(startOfDay, "minute", true);
+    if (
+      !workingHours.some(
+        (workingHour) =>
+          workingHour.days.includes(slotStartTime.day()) &&
+          start >= workingHour.startTime &&
+          end <= workingHour.endTime
+      )
+    ) {
+      return false;
+    }
   }
 
   return busy.every((busyTime) => {
