@@ -11,6 +11,8 @@ from sentry.spans.consumers.process.factory import ProcessSpansStrategyFactory
 
 @pytest.mark.django_db(transaction=True)
 def test_basic(monkeypatch):
+    real_sleep = time.sleep
+
     # Flush very aggressively to make test pass instantly
     monkeypatch.setattr("time.sleep", lambda _: None)
 
@@ -58,8 +60,12 @@ def test_basic(monkeypatch):
     fac._flusher.current_drift.value = 9000  # "advance" our "clock"
 
     step.poll()
-    # Give flusher threads time to process after drift change
-    time.sleep(0.1)
+
+    # time.sleep is patched above, so wait for the flusher thread to pick up
+    # the new drift using the real sleep.
+    deadline = time.monotonic() + 5
+    while not messages and time.monotonic() < deadline:
+        real_sleep(0.01)
 
     step.join()
 
@@ -119,5 +125,7 @@ def test_flusher_processes_limit(monkeypatch):
     # Verify shards are distributed across processes
     total_shards = sum(len(shards) for shards in flusher.process_to_shards_map.values())
     assert total_shards == 4  # All 4 shards should be assigned
+    # No process is left without shards
+    assert all(flusher.process_to_shards_map.values())
 
     step.join()

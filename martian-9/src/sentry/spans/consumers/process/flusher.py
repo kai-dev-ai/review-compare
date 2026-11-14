@@ -251,7 +251,7 @@ class SpanFlusher(ProcessingStrategy[FilteredPayload | int]):
             self.process_restarts[process_index] += 1
 
             try:
-                if isinstance(process, multiprocessing.Process):
+                if isinstance(process, multiprocessing.context.SpawnProcess):
                     process.kill()
             except (ValueError, AttributeError):
                 pass  # Process already closed, ignore
@@ -333,15 +333,12 @@ class SpanFlusher(ProcessingStrategy[FilteredPayload | int]):
 
         self.next_step.join(timeout)
 
-        # Wait for all processes to finish
-        for process_index, process in self.processes.items():
-            if deadline is not None:
-                remaining_time = deadline - time.time()
-                if remaining_time <= 0:
-                    break
-
+        # Wait for all processes to finish. Every process must reach the
+        # terminate call below, even if the deadline already expired while
+        # joining next_step or earlier processes.
+        for process in self.processes.values():
             while process.is_alive() and (deadline is None or deadline > time.time()):
                 time.sleep(0.1)
 
-            if isinstance(process, multiprocessing.Process):
+            if isinstance(process, multiprocessing.context.SpawnProcess):
                 process.terminate()

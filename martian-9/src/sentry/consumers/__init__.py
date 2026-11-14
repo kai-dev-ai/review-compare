@@ -432,7 +432,7 @@ KAFKA_CONSUMERS: Mapping[str, ConsumerDefinition] = {
             click.Option(
                 ["--flusher-processes", "flusher_processes"],
                 default=1,
-                type=int,
+                type=click.IntRange(min=1),
                 help="Maximum number of processes for the span flusher. Defaults to 1.",
             ),
         ],

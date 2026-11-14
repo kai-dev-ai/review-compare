@@ -446,12 +446,12 @@ for org in organizations:
 # RIGHT: Use prefetch_related
 organizations.prefetch_related('projects')
 
-# WRONG: Use hasattr() for unions
+# AVOID: hasattr() to narrow a union to a concrete type
 x: str | None = "hello"
 if hasattr(x, "replace"):
     x = x.replace("e", "a")
 
-# RIGHT: Use isinstance()
+# PREFER: isinstance() when the concrete runtime type matters
 x: str | None = "hello"
 if isinstance(x, str):
     x = x.replace("e", "a")
