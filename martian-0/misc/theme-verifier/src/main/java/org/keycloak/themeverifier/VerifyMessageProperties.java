@@ -104,7 +104,7 @@ public class VerifyMessageProperties {
                     start++;
                 }
                 int end = 0;
-                while (end < sanitized.length() && end < value.length() && value.charAt(value.length() - end - 1) == sanitized.charAt(sanitized.length() - end - 1)) {
+                while (end < sanitized.length() - start && end < value.length() - start && value.charAt(value.length() - end - 1) == sanitized.charAt(sanitized.length() - end - 1)) {
                     end++;
                 }
 
@@ -142,7 +142,7 @@ public class VerifyMessageProperties {
         return HTML_TAGS.matcher(englishValue).find();
     }
 
-    private static final Pattern ANCHOR_PATTERN = Pattern.compile("</?a[^>]*>");
+    private static final Pattern ANCHOR_PATTERN = Pattern.compile("</?a(?=[\\s/>])[^>]*>");
 
     /**
      * Allow only those anchor tags from the source key to also appear in the target key.
